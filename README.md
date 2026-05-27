@@ -50,7 +50,7 @@ A multilingual medical voice assistant powered by AI that provides health recomm
                      ▼
         ┌────────────────────────────┐
         │    INPUT TEXT (Yoruba)     │
-        │  "Ara ń yan mi" (itching)  │
+        │  "Ara ń yun mi" (itching)  │
         └────────────┬───────────────┘
                      │
                      ▼
