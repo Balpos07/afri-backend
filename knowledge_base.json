@@ -1,0 +1,1239 @@
+[
+
+  {
+    "symptom": "itching",
+    "yoruba": [
+      "Ara yíyun",
+      "Ara ń yun mi",
+      "Ara ń yan mi",
+      "Ara ń hun mi"
+    ],
+    "recommendation":"Láti tọ́jú ara yíyun, lo búlúù (powder) tí kò ní èròjà tó le mọ́ lílo ọṣẹ pẹ́ẹ́pẹ̀ẹ̀pẹ́ àti omi títura láti wẹ̀, kí o sì máa mu omi púpọ̀ lójúmọ́ pẹ̀lú wíwọ aṣọ òwú (cotton) tó fúyẹ́, ṣùgbọ́n lọ rí dókítà lẹ́sẹ̀kẹ̀sẹ̀ tí yíyun náà bá ju ọjọ́ mẹ́ta lọ."
+  },
+{
+"symptom": "skin_rash",
+"yoruba": [
+"Kùrunà",
+"Ara sísù",
+"Ìgbẹ ara",
+"Ẹfúùfú awọ ara"
+],
+"recommendation": "Mọ́tótó ara rẹ lójúmọ́ nípa lílo omi tó mọ́ àti ọṣẹ pẹ́ẹ́pẹ̀ẹ̀pẹ́ láìlo 'bleach', yàgò fún pípín aṣọ tàbí tọ́wẹ̀lì pẹ̀lú ẹlòmíràn, kí o sì lo ìkunrà tí dókítà fún ọ ní àṣẹ, ṣùgbọ́n lọ sí ilé ìwòsàn tí ìgbẹ náà bá ń tàn káàkiri tàbí tó bá ń pọ́n janjan."
+},
+{
+"symptom": "nodal_skin_eruptions",
+"yoruba": [
+"Ìgbẹ kékeré lára",
+"Egbò kẹ́kẹ̀ẹ̀kẹ́",
+"Ara kíkù pẹ̀lú ìrora"
+],
+"recommendation": "Mọ́tótó ara rẹ pẹ̀lú omi tó mọ́ láìfọ́ tàbí ha àwọn egbò náà, yàgò fún oògùn ìbílẹ̀ tó le mú kí egbò burù sí i, kí o sì lo oògùn ìkunrà tí dókítà paṣẹ gangan láti dènà àkóràn, kí o sì tún lọ sí ilé ìwòsàn kíákíá fún àyẹ̀wò abẹ́nú."
+},
+  {
+    "symptom": "continuous_sneezing",
+    "yoruba": [
+      "Sín-sín nígbà gbogbo",
+      "Ṣíṣán imú léraléra",
+      "Ìmú sísín"
+    ],
+    "recommendation":"Láti dènà sín-sín léraléra, yàgò fún eruku, èéfín, àti àdódó nípa lílo gèlè láti bo imú rẹ, dídúró lórí mọ́tótó ọwọ́, àti mímu omi títura láti jẹ́ kí ọ̀nà imú rọ̀, mọ́ lílo oògùn 'Anti-histamine' tí dókítà bá paṣẹ fún ọ."
+  },
+  {
+    "symptom": "shivering",
+    "yoruba": [
+      "Ara títì",
+      "Ẹrẹ ń mì",
+      "Ara mímì nítorí òtútù",
+      "Ìpòpòjọ̀"
+    ],
+    "recommendation": "Láti tu ara títì (shivering) lọ́wọ́, bora dáadáa pẹ̀lú aṣọ tó nípọn tàbí ibora, mu omi gbóná fẹ́rẹ́fẹ́ tàbí tiì láti fún ara rẹ ní ooru látinú, kí o sì sinmi dáadáa láìṣe iṣẹ́ agidi mọ́ wíwọn ìwọ̀n òtútù ara rẹ, ṣùgbọ́n lọ sí ilé ìwòsàn kíákíá tí mímì náà bá tẹ̀síwájú nítorí ó le jẹ́ àmì ibà malaria."
+  },
+{
+"symptom": "chills",
+"yoruba": [
+"Òtútù ń mi mí",
+"Òtútù ń pa mí",
+"Ìmọ̀lára òtútù nínú egungun"
+],
+"recommendation": "Wọ aṣọ tó nípọn kí o sì bora láti sùn, mu omi gbóná tàbí oje èso tó ní 'Vitamin C', sìn yàgò fún wíwẹ̀ ní omi tútù jara, ṣùgbọ́n lọ rí dókítà tí ara rẹ bá ń gbóná pẹ̀lú òtútù náà."
+},
+{
+"symptom": "joint_pain",
+"yoruba": [
+"Ìrora oríkèé-ara",
+"Ẹgbẹ́ àpá dídùn",
+"Egungun rírun",
+"Ìrora orúnkún"
+],
+"recommendation": "Sinmi oríkèé tó ń dun ọ́ láìgbé nǹkan wúwo, lo epo (balm) àti oògùn apalẹ̀-ìrora bíi 'Paracetamol' pẹ̀lú eré ìmárale pẹ́ẹ́pẹ̀ẹ̀pẹ́, ṣùgbọ́n lọ sí ilé ìwòsàn tí oríkèé náà bá ń wú tàbí tó bá ń pọ́n."
+},
+{
+"symptom": "stomach_pain",
+"yoruba": [
+"Inú rírun",
+"Inú dídùn",
+"Inú kíkò",
+"Inú mi ń run"
+],
+"recommendation": "Dọ̀bálẹ̀ láti sinmi kí o sì mu omi títura, yàgò fún oúnjẹ tó nípọn tàbí tó ní ata pípọ̀, lo omi gbígbóná sínú 'bottle' láti tẹ inú rẹ, ṣùgbọ́n lọ rí dókítà kíákíá tí o bá ń ṣìgbẹ́ ẹjẹ̀."
+},
+
+{
+"symptom": "Acidity / Heartburn",
+"yoruba": [
+"Inú ń jóná",
+"Ì ríru inú",
+"Inú ríru nítorí àsẹjù àsírí kíkoro",
+"Gágá ríru láti inú wá sí òfun"
+],
+"recommendation": "Mu omi púpọ̀ ní gbogbo ìgbà mọ́ lílo oògùn 'antacid' bí dókítà ṣe paṣẹ, kí o sì yàgò fún oúnjẹ dídín, ata pípọ̀, kọfí, àti ohun mímu tó lágbára láti dín ìjóná inú kù."
+},
+{
+"symptom": "ulcers_on_tongue",
+"yoruba": [
+"Ọgbẹ́ lórí ahọ́n",
+"Sẹmúsẹmú",
+"Inú ẹnu dídùn",
+"Ẹfúùfú ẹnu"
+],
+"recommendation": "Fi omi iyọ̀ títura kárí ẹnu mọ́ lílo oyin gidi sí ojú ọgbẹ́ náà, mu omi tútù púpọ̀ pẹ̀lú èròjà 'Vitamin B Complex', kí o sì yàgò fún oúnjẹ tó gbóná janjan tàbí tó ní ata pípọ̀."
+},
+{
+"symptom": "muscle_wasting",
+"yoruba": [
+"Ẹran ara ń gbẹ",
+"Ara dídín kù",
+"Rírù kájókájó",
+"Ara lílọ bẹ́rẹ́bẹ́rẹ́"
+],
+"recommendation": "Jẹ oúnjẹ tó ní amuaradagba (protein) púpọ̀ mọ́ lílo èròjà 'multivitamin' àti eré ìmárale pẹ́ẹ́pẹ̀ẹ̀pẹ́, kí o sì lọ sí ilé-ìwòsàn fún ìdánwò ẹ̀jẹ̀ láti mọ okùnfà bí ẹran ara rẹ ṣe ń gbẹ."
+},
+
+{
+"symptom": "vomiting",
+"yoruba": [
+"Bíbì",
+"Èbì ń bí mi",
+"Mo ń bì",
+"Gbigbé nkan sọnù láti inú"
+],
+"recommendation": "Mu omi kékèké ní gbogbo ìgbà pẹ̀lú oògùn 'ORS' láti dá omi padà sí ara mọ́ yíyagò fún oúnjẹ tó nípọn, kí o sì sinmi dáadáa, ṣùgbọ́n lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ tí èbì náà bá ju lẹ́ẹ̀márùn-ún lọ lójúmọ́."
+},
+{
+"symptom": "burning_micturition",
+"yoruba": [
+"Ìtò ń jóná",
+"Ìtò títani",
+"Inú rírù nígbà ìtò",
+"Ìtò tó ń fínni"
+],
+"recommendation": "Mu omi púpọ̀ (kí ó tó lítà méjì) mọ́ oje 'Cranberry' láti fọ kòkòrò kúrò nínú ìtò láìdá ìtò dúró, kí o sì yàgò fún otí tàbí kọfí, ṣùgbọ́n lọ rí dókítà fún ìdánwò 'Urine Culture' láti mọ oògùn tó tọ́."
+},
+{
+"symptom": "spotting_urination",
+"yoruba": [
+"Ẹjẹ̀ nínú ìtò",
+"Ìtò pupa",
+"Àpò ìtò tó ń dàjẹ̀",
+"Ìtò tó lúmọ̀ọ́kùn pẹ̀lú ẹjẹ̀"
+],
+"recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ fún ìdánwò 'Urinalysis' àti 'Ultrasound', mu omi púpọ̀ láti dènà dídì ẹjẹ̀, kí o sì tẹ̀lé ìtọ́jú dókítà nípa sísọ gbogbo ìrora tó o bá nímọ̀lára rẹ̀ fún wọn."
+},
+
+ {
+"symptom": "fatigue",
+"yoruba": [
+"Aárẹ̀",
+"Ara dídùn",
+"Òjòjò ara",
+"Aìlókun nínú ara"
+],
+"recommendation": "Sinmi dáadáa mọ́ jíjẹ oúnjẹ tó nípọn àti mímu omi púpọ̀ pẹ̀lú eré ìmárale pẹ́ẹ́pẹ̀ẹ̀pẹ́, ṣùgbọ́n lọ rí dókítà fún ìdánwò ẹ̀jẹ̀ láti mọ̀ bóyá o ní àìtó ẹ̀jẹ̀ (Anemia)."
+},
+{
+"symptom": "weight_gain",
+"yoruba": [
+"Sísanra jọjọ",
+"Ara rírọ̀",
+"Ara dídàpọ̀ sí i",
+"Ìwuwo ara"
+],
+"recommendation": "Ṣe eré ìmárale lójúmọ́ mọ́ jíjẹ oúnjẹ alábàápádé láìjẹun ní alẹ́ gan-an, kí o sì dín ṣúgà àti ọ̀rá kù, ṣùgbọ́n ṣe ìdánwò 'Thyroid' láti mọ okùnfà sísanra náà."
+},
+{
+"symptom": "anxiety",
+"yoruba": [
+"Ayòyò",
+"Ìfura kánjúkánjú",
+"Ọkàn tí kò balẹ̀",
+"Àníyàn púpọ̀"
+],
+"recommendation": "Gba èémí sínú jinlẹ̀-jinlẹ̀ mọ́ ṣíṣe àṣàrò àti sísọ̀rọ̀ nípa ohun tó ń dà ọ́ láàmú, kí o sì yàgò fún kọfí tàbí otí líle láti mú kí ọkàn rẹ balẹ̀."
+},
+{
+"symptom": "cold_hands_and_feets",
+"yoruba": [
+"Ọwọ́ àti ẹsẹ̀ tútù kọyọkọyo",
+"Òtútù nínú ẹsẹ̀ àti ọwọ́",
+"Ìmọ̀lára tútù nínú oríkèé ara"
+],
+"recommendation": "Wọ ìbọwọ́ àti ìbọsẹ̀ nípọn mọ́ ṣíṣe eré ìmárale láti mú kí ẹ̀jẹ̀ rìn dáadáa, yàgò fún sìgá, kí o sì lọ sí ilé ìwòsàn láti ṣàyẹ̀wò ìṣiṣẹ́ ọkàn àti ẹ̀jẹ̀ rẹ."
+},
+
+{
+"symptom": "mood_swings",
+"yoruba": [
+"Ìwà ń yípadà lójijì",
+"Ayérayé ọkàn",
+"Ìyípadà èrò inú",
+"Inú dídùn àti inú bíbí lẹ́ẹ̀kan náà"
+],
+"recommendation": "Sùn tó láti jẹ́ kí ọpọlọ sinmi mọ́ ṣíṣe àṣàrò àti sísọ̀rọ̀ pẹ̀lú ẹni tí o fọkàntán, kí o sì yàgò fún ohun tó ń dá wàhálà sílẹ̀ pẹ̀lú jíjẹ oúnjẹ tó nípọn tó kún fún èso."
+},
+{
+"symptom": "weight_loss",
+"yoruba": [
+"Ara ń dín kù",
+"Rírù kájókájó",
+"Ara lílọ bẹ́rẹ́bẹ́rẹ́",
+"Ìsọ nù ìwúwo ara"
+],
+"recommendation": "Jẹ oúnjẹ tó kún fún amuaradagba (protein) mọ́ mímu omi èso, kí o sì dín iṣẹ́ agidi kù, ṣùgbọ́n lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ láti ṣàyẹ̀wò àtọ̀gbẹ, kòkòrò 'TB', tàbí àìsàn abẹ́nú mìíràn."
+},
+{
+"symptom": "restlessness",
+"yoruba": [
+"Àìsímì",
+"Ìru gágá ọkàn",
+"Inú riru",
+"Ara tí kò lélẹ̀"
+],
+"recommendation": "Mu tiì ewébẹ̀ láìní kọfí mọ́ ṣíṣe àṣàrò tàbí títẹ́tí sí orin tura, yàgò fún lílo tẹlifóònù nígbà sísùn, kí o sì sọ̀rọ̀ pẹ̀lú dókítà láti mọ̀ bóyá àníyàn ló ń fà á."
+},
+{
+"symptom": "lethargy",
+"yoruba": [
+"Aìfẹ́ṣiṣẹ́",
+"Ara dídùn kọyọkọyo",
+"Ìrẹ̀wẹ̀sì ara",
+"Aìlókun-un rárá"
+],
+"recommendation": "Sinmi dáadáa mọ́ mímu omi púpọ̀ àti jíjẹ oúnjẹ tó kún fún èròjà irin (iron) bíi ẹ̀dọ̀ àti ẹ̀fọ́, kí o sì lọ sí ilé ìwòsàn láti ṣàyẹ̀wò bóyá ẹ̀jẹ̀ rẹ ti dín (Anemia)."
+},
+{
+"symptom": "patches_in_throat",
+"yoruba": [
+"Pẹpẹ funfun ní ọfun",
+"Ọfun dídùn pẹ̀lú abà funfun",
+"Inú ọfun tó tọ́",
+"Èfúùfú ọfun"
+],
+"recommendation": "Lọ sí ilé ìwòsàn kíákíá fún 'swab test' mọ́ lílo oògùn apakòkòrò gẹ́gẹ́ bí dókítà ṣe paṣẹ, lo omi iyọ̀ láti fi kárí ọfun, kí o sì yàgò fún oúnjẹ tó le tàbí tó ní ata."
+},
+{
+"symptom": "irregular_sugar_level",
+"yoruba": [
+"Ìpele ṣúgà kò dúró sójú kan",
+"Àìdúró ṣúgà sínú ẹ̀jẹ̀",
+"Súgà tó ń gòkè tó ń sọ̀kalẹ̀"
+],
+"recommendation": "Jẹ oúnjẹ tó ní fúláíbà (fiber) mọ́ ṣíṣe eré ìmárale pẹ́ẹ́pẹ̀ẹ̀pẹ́, yàgò fún ṣúgà púpọ̀, kí o sì máa ṣàyẹ̀wò ṣúgà rẹ lẹ́sẹesẹ gẹ́gẹ́ bí dókítà ṣe paṣẹ."
+},
+
+ {
+"symptom": "cough",
+"yoruba": [
+"Ikọ́",
+"Ìkọ́",
+"Ikọ́ ńlá",
+"Ikọ́ gbigbe",
+"Ikọ́ tó ní gán-án-ní"
+],
+"recommendation": "Mu omi títura pẹ̀lú oyin àti lẹmọnu mọ́ lílo oògùn ikọ́ gẹ́gẹ́ bí dókítà ṣe paṣẹ, kí o sì gba èémí sínú lórí omi gbígbóná, ṣùgbọ́n lọ sí ilé ìwòsàn tí ikọ́ náà bá kọjá ọ̀sẹ̀ méjì láti ṣàyẹ̀wò 'TB'."
+},
+{
+"symptom": "high_fever",
+"yoruba": [
+"Ìbà gíga",
+"Ara gbígbóná janjan",
+"Ara kóná",
+"Ìbà àpọ́njú",
+"Ìmọ̀lára ooru nínú egungun"
+],
+"recommendation": "Lo 'Paracetamol' mọ́ lílo aṣọ tútù láti nu ara lẹ́sẹẹsẹ kí o sì wọ aṣọ fúlẹ́fúlẹ́ láti dín ooru kù, ṣùgbọ́n lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ láti ṣàyẹ̀wò malaria tàbí typhoid."
+},
+{
+"symptom": "sunken_eyes",
+"yoruba": [
+"Ojú dídun",
+"Ojú ti rẹ",
+"Ojú wọ̀",
+"Ojú hálà"
+],
+"recommendation": "Mu 'ORS' àti omi púpọ̀ lẹ́sẹ̀kẹ̀sẹ̀ mọ́ jíjẹ oúnjẹ tó ní omi bíi apálá láti dá omi padà sí ara rẹ, ṣùgbọ́n lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ tí ojú náà bá wọ̀ sínú gan-an."
+},
+{
+"symptom": "breathlessness",
+"yoruba": [
+"Ẹ̀mí kò rọrùn",
+"Àìlègbé-mí-dáadáa",
+"Ìmí kánjúkánjú",
+"Ara fùfù"
+],
+"recommendation": "Jókòó nírọ̀rùn kí o sì gba èémí sínú jinlẹ̀ láìsọ̀rọ̀ púpọ̀ mọ́ yíyagò fún èéfín tàbí ekuru, ṣùgbọ́n lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ nítorí èyí le jẹ́ àmì àìsàn ọkàn tàbí inú fúyẹ́."
+},
+{
+"symptom": "sweating",
+"yoruba": [
+"Òógùn",
+"Ara dídógùn púpọ̀",
+"Òógùn rọ̀rọ̀",
+"Ara títẹ́ fún òógùn"
+],
+"recommendation": "Mu omi púpọ̀ mọ́ wíwọ aṣọ òwú láti jẹ́ kí afẹ́fẹ́ wọ ara, yàgò fún oúnjẹ tó ní ata púpọ̀, kí o sì wẹ̀ pẹ̀lú omi títura láti mú kí ara rẹ fúyẹ́."
+},
+{
+"symptom": "dehydration",
+"yoruba": [
+"Ara gbígbẹ",
+"Àìtó omi nínú ara",
+"Ara tẹ́ẹ́rẹ́ nítorí òùngbẹ",
+"Ẹnu gbígbẹ"
+],
+"recommendation": "Mu 'ORS' àti omi agbọn ní kékèké ní gbogbo ìgbà mọ́ sísìnmi dáadáa láìṣe iṣẹ́ agidi, ṣùgbọ́n lọ sí ilé ìwòsàn fún omi-ẹnu (drip) tí ara rẹ bá ti lẹ́ gan-an."
+},
+
+
+{
+"symptom": "indigestion",
+"yoruba": [
+"Oúnjẹ kò tẹ̀",
+"Oúnjẹ kò rọ̀ nínú inú",
+"Inú dídùn lẹ́yìn oúnjẹ",
+"Oúnjẹ dídúró sí ọkàn"
+],
+"recommendation": "Jẹun kékèké léraléra mọ́ mímu tiì ata ilẹ̀ àti omi púpọ̀ láti jẹ́ kí inú rọ̀, kí o sì rìn nkan díẹ̀ lẹ́yìn oúnjẹ láìjẹ oúnjẹ tó ní epo tàbí ata pípọ̀."
+},
+{
+"symptom": "headache",
+"yoruba": [
+"Orí ń fọ́ mi",
+"Ìfọrí",
+"Orí dídùn",
+"Orí fífọ́ fẹ́rẹ́fẹ́"
+],
+"recommendation": "Sinmi níbi tó dákẹ́ láìní ìmọ́lẹ̀ gidi mọ́ mímu omi dáadáa àti lílo 'Paracetamol', kí o sì yàgò fún ariwo pẹ̀lú fífi aṣọ tútù sára iwájú orí rẹ."
+},
+{
+"symptom": "yellowish_skin",
+"yoruba": [
+"Ara ń di ofeefee",
+"Ojú pípọ́n bí òdòdó",
+"Àwọ̀ ara yíyí"
+],
+"recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ fún ìdánwò 'Hepatitis' àti ẹdọ, mu omi mọ́ léraléra, kí o sì yàgò fún otí líle tàbí oògùn ìbílẹ̀ tó le ba ẹdọ jẹ́."
+},
+{
+"symptom": "dark_urine",
+"yoruba": [
+"Ìtò dúdú",
+"Ìtò pupa fẹ́rẹ́",
+"Ìtò tó rẹwà jù",
+"Ìtò tó dà bí àwọ̀ kọfí"
+],
+"recommendation": "Mu omi púpọ̀ lẹ́sẹ̀kẹ̀sẹ̀ mọ́ yíyagò fún iṣẹ́ agidi lábẹ́ oòrùn, kí o sì lọ sí ilé ìwòsàn fún ìdánwò ìtò àti ẹdọ láti mọ ohun tó yí àwọ̀ ìtò rẹ padà."
+},
+{
+"symptom": "nausea",
+"yoruba": [
+"Ẹ̀ẹ̀rùn",
+"Inú ríru",
+"Inú kíkò",
+"Ìmọ̀lára èbì"
+],
+"recommendation": "Sinmi dáadáa mọ́ mímu tiì ata ilẹ̀ àti omi ní kékèké, yàgò fún oúnjẹ tó nípọn tàbí tó ń rùn kíkankíkan, kí o sì lo oògùn èébì tí dókítà bá paṣẹ fún ọ."
+},
+{
+"symptom": "loss_of_appetite",
+"yoruba": [
+"Kò fẹ́ jẹun",
+"Oúnjẹ kò wù ú jẹ",
+"Ẹnu títẹ̀",
+"Ẹnu kíkoro"
+],
+"recommendation": "Jẹ oúnjẹ tó o fẹ́ràn ní kékèké léraléra mọ́ mímu oje èso láti sọjí ẹnu, kí o sì lọ sí ilé ìwòsàn láti ṣàyẹ̀wò ibà malaria tàbí àìsàn abẹ́nú mìíràn."
+},
+
+ {
+"symptom": "pain_behind_the_eyes",
+"yoruba": [
+"Ẹgbẹ́ ojú dídùn",
+"Ìrora lẹ́yìn ojú",
+"Ojú títunini"
+],
+"recommendation": "Sinmi dáadáa láìwo tẹlifóònù tàbí ìmọ́lẹ̀ tó mọ́ jù mọ́ lílo 'Paracetamol', ṣùgbọ́n lọ rí dókítà ojú láti ṣàyẹ̀wò 'glaucoma' tàbí ìṣòro ìríran."
+},
+{
+"symptom": "back_pain",
+"yoruba": [
+"Ẹ̀yìn ń dun mi",
+"Ìrora lórí egungun ẹ̀yìn",
+"Ẹ̀yìn kíkò"
+],
+"recommendation": "Sinmi lórí ibùsùn tó tẹ́jú mọ́ lílo epo gbígbóná àti eré ìmárale kékèké, yàgò fún gbígbé nǹkan wúwo, kí o sì lọ rí dókítà bí ìrora náà bá ń lọ sí ẹsẹ̀."
+},
+{
+"symptom": "constipation",
+"yoruba": [
+"Àìgbọ́n",
+"Ìgbẹ́ dídì",
+"Inú kíkì",
+"Inú títí"
+],
+"recommendation": "Mu omi gidigidi mọ́ jíjẹ oúnjẹ tó ní okun (fiber) bíi ẹ̀fọ́ àti eré ìmárale léraléra, kí o sì lo oògùn 'laxative' tí dókítà bá paṣẹ fún ọ nìkan."
+},
+{
+"symptom": "abdominal_pain",
+"yoruba": [
+"Inú rírù",
+"Inú dídùn",
+"Inú kíkò"
+],
+"recommendation": "Dọ̀bálẹ̀ láti sinmi mọ́ mímu omi títura àti lílo omi gbígbóná sára inú, yàgò fún oúnjẹ tó le, ṣùgbọ́n lọ sí ilé ìwòsàn kíákíá tí ìrora náà bá le gan-an."
+},
+{
+"symptom": "diarrhoea",
+"yoruba": [
+"Inú sísàn",
+"Ìgbẹ́ gbuuru",
+"Ṣìgbẹ́-ṣìgbẹ́"
+],
+"recommendation": "Mu 'ORS' àti omi kékèké ní gbogbo ìgbà mọ́ jíjẹ oúnjẹ tó fúyẹ́ bíi ògì, kí o sì lọ sí ilé ìwòsàn tí ìgbẹ́ náà bá ju lẹ́ẹ̀márùn-ún lọ tàbí tí ẹjẹ̀ bá wà nínú rẹ̀."
+},
+{
+"symptom": "mild_fever",
+"yoruba": [
+"Ìbà kékeré",
+"Ara ń gbóná fẹ́rẹ́fẹ́",
+"Ara gbígbóná",
+"Ara kóná"
+],
+"recommendation": "Mu omi púpọ̀ mọ́ sísìnmi dáadáa àti lílo 'Paracetamol', kí o sì wẹ ara rẹ pẹ̀lú omi títura láti mú kí igbóná ara rẹ rọ̀."
+},
+{
+"symptom": "yellow_urine",
+"yoruba": [
+"Ìtò ofeefee",
+"Ìtò tó pọ́n",
+"Ìtò tó rẹwà kọyọkọyo"
+],
+"recommendation": "Mu omi púpọ̀ lẹ́sẹ̀kẹ̀sẹ̀ mọ́ oje èso láti sọjí ara, yàgò fún kọfí, ṣùgbọ́n lọ rí dókítà tí àwọ̀ ìtò rẹ kò bá padà sí dídán láàárín ọjọ́ méjì."
+},
+
+  {
+    "symptom": "yellowing_of_eyes",
+    "yoruba": [
+      "Ojú ń di ofeefee",
+      "Ojú pípọ́n bí òdòdó",
+      "Àwọ̀ ojú yíyí"
+    ],
+    "recommendation":"Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ fún ìdánwò ẹdọ àti Hepatitis, yàgò fún mímu otí líle tàbí oògùn ìbílẹ̀ tí dókítà kò mọ̀ nípa rẹ̀, kí o sì máa mu omi tó mọ́ dáadáa ní gbogbo ìgbà láti dáàbò bò ẹdọ rẹ. "
+   
+  },
+  {
+    "symptom": "acute_liver_failure",
+    "yoruba": [
+      "Ẹdọ ti bàjẹ́ lójijì",
+      "Ìṣubú ẹdọ",
+      "Pájáwìrì ẹdọ"
+    ],
+    "recommendation": 
+      "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ nítorí pájáwìrì yìí le gba ẹ̀mí lọ, má ṣe jẹ oúnjẹ tàbí lo oògùn kankan títí dókítà yóò fi rí ọ, sọ gbogbo oògùn tí o lò kẹ́yìn fún wọn, kí o sì mura láti ṣe ìdánwò 'LFT' lójú ẹsẹ̀ nínú yàrá ìtọ́jú pàjáwìrì. "
+  
+  },
+  {
+    "symptom": "fluid_overload",
+    "yoruba": [
+      "Omi púpọ̀ jù nínú ara",
+      "Ara wíwù nítorí omi",
+      "Ara títẹ̀ fún omi"
+    ],
+    "recommendation": 
+      "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ láti ṣàyẹ̀wò ọkàn àti kíndìnrín, dín iye omi àti iyọ̀ tí o ń mu kù, gbé ẹsẹ̀ rẹ sókè tí ó bá ń wú, kí o sì máa wọn ìwúwo ara rẹ lójúmọ́ láti mọ̀ bóyá omi náà ń pọ̀ sí i. "
+  },
+  {
+    "symptom": "swelling_of_stomach",
+    "yoruba": [
+      "Inú wíwù",
+      "Inú títí",
+      "Omi sísun sínú inú"
+    ],
+    "recommendation": "Dín lílo iyọ̀ kù pátápátá mọ́ yíyagò fún oúnjẹ tó ń dá atẹ́gù sílẹ̀, kí o sì mu omi ní ìwọ̀nba gẹ́gẹ́ bí ìtọ́jú rẹ ṣe bá mu, ṣùgbọ́n lọ sí ilé ìwòsàn fún ìdánwò 'Ultrasound' láti yẹ ẹdọ rẹ wò kíákíá."},
+  {
+    "symptom": "swelled_lymph_nodes",
+    "yoruba": [
+      "Èrèké ara wíwù",
+      "Iwájú ọrùn wíwù",
+      "Gán-un-gán-un ara"
+    ],
+    "recommendation": 
+      "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ fún ìdánwò, sinmi dáadáa pẹ̀lú jíjẹ oúnjẹ tó fúnni ní agbára mọ́ mímu omi púpọ̀, kí o sì lo aṣọ títura láti tu ìrora ibi tó wú náà lọ́wọ́ láìfọ́ tàbí tẹ̀ ẹ́."
+  
+    
+  },
+  {
+    "symptom": "malaise",
+    "yoruba": [
+      "Àìlera gbogbogbò",
+      "Ara tí kò gbé iṣẹ́",
+      "Ara dídùn kọyọkọyo",
+      "Ara tí kò balẹ̀"
+    ],
+    "recommendation": "Sinmi dáadáa láìṣe iṣẹ́ agidi, mu omi púpọ̀ àti oje èso tó ní aṣara-lóore mọ́ jíjẹ oúnjẹ tó dára, kí o sì gba èémí sínú fúyẹ́fúyẹ́, ṣùgbọ́n lọ rí dókítà tí àìlera náà bá ju ọjọ́ méjì lọ." 
+},
+ 
+  {
+    "symptom": "blurred_and_distorted_vision",
+    "yoruba": [
+      "Ojú ń rú",
+      "Ìríran tí kò tọ́",
+      "Ìríran kùrukùru",
+      "Ojú dídì"
+    ],
+    "recommendation": "Sinmi ojú rẹ lẹ́sẹ̀kẹ̀sẹ̀ nípa yíyàgò fún tẹlifóònù tàbí kọ̀ǹpútà, kí o sì lọ rí dókítà ojú fún ìdánwò tó kúnnà bí ìṣòro náà kò bá kúrò kíákíá."
+  },
+  {
+    "symptom": "phlegm",
+    "yoruba": [
+      "Ọlọ́jẹ̀",
+      "Ikọ́ tó ní gán-án-ní",
+      "Ìfunra nínú ọfun"
+    ],
+    "recommendation": "Mu omi títura léraléra pẹ̀lú oyin gidi, lo oògùn ikọ́ tó le mú èlà jáde nínú ọfun, kí o sì lọ rí dókítà bí ọlọ́jẹ̀ náà bá ń nípọn sí i tàbí tó bá yí àwọ̀ padà."
+  },
+  {
+    "symptom": "throat_irritation",
+    "yoruba": [
+      "Ọfun ń yun",
+      "Ọfun títunini",
+      "Ìmọ̀lára ẹfúùfú nínú ọfun"
+    ],
+    "recommendation": "Mu omi gbóná fẹ́rẹ́fẹ́ tó ní lẹmọnu nínú, ṣe afọ́nu (gargle) pẹ̀lú omi iyọ̀ títura láti pa kòkòrò, kí o sì lọ rí dókítà bí ìrora ọfun náà bá ń dí ọ lọ́wọ́ láti gbé oúnjẹ mì."
+  },
+  {
+    "symptom": "redness_of_eyes",
+    "yoruba": [
+      "Ojú pupa",
+      "Ojú pípọ́n kòyòkòyò",
+      "Ìmọ̀lára ooru nínú ojú"
+    ],
+    "recommendation": "Sinmi ojú rẹ nípa lílo aṣọ tútù láti nu ooru kúrò nínú rẹ̀, yàgò fún lílo oògùn ojú tí dókítà kò mọ̀ nípa rẹ̀, kí o sì lọ sí ilé ìwòsàn bí pupa náà kò bá dín kù nínú ọjọ́ méjì."
+  },
+  {
+    "symptom": "sinus_pressure",
+    "yoruba": [
+      "Ẹ̀rọ ní orí",
+      "Ìrora lórí iwájú orí",
+      "Imú dídì tó ń fa ìfọrí"
+    ],
+    "recommendation": "Mu omi púpọ̀ láti jẹ́ kí omi imú rọ̀, gba èémí sínú lórí omi gbígbóná láti ṣí ọ̀nà imú, kí o sì lọ rí dókítà fún ìdánwò 'Sinusitis' bí ìrora orí náà bá le gan-an."
+  },
+  {
+    "symptom": "runny_nose",
+    "yoruba": [
+      "Imú ń sán",
+      "Ṣíṣán imú",
+      "Omi tó ń jáde nínú imú"
+    ],
+    "recommendation": "Sinmi dáadáa kí o sì lo omi iyọ̀ (saline drops) láti fọ inú imú rẹ mọ́, mu omi léraléra láti jẹ́ kí ara rẹ jí pépé, kí o sì lọ rí dókítà bí òtútù náà bá ju ọ̀sẹ̀ kan lọ."
+  },
+  {
+    "symptom": "congestion",
+    "yoruba": [
+      "Imú dídì",
+      "Àìlègbé-mí-dáadáa nítorí òtútù",
+      "Ìmú kíkì"
+    ],
+    "recommendation": "Lo oògùn amupara (inhaler) tàbí kí o gba èémí sínú lórí omi gbígbóná láti ṣí ọ̀nà èémí rẹ, mu omi púpọ̀ lójúmọ́, kí o sì lọ sí ilé ìwòsàn bí imú dídì náà bá ń fa ìṣòro fún ẹ̀mí rẹ."
+  },
+  {
+    "symptom": "chest_pain",
+    "yoruba": [
+      "Àyà ń dun",
+      "Ìrora lórí àyà",
+      "Àyà kíkò"
+    ],
+    "recommendation": "Dẹ́kun gbogbo iṣẹ́ agidi lẹ́sẹ̀kẹ̀sẹ̀ kí o sì jókòó jẹ́ẹ́ láti sinmi, lọ sí ilé ìwòsàn lójú ẹsẹ̀ nítorí èyí le jẹ́ àmì pájáwìrì ọkàn bí ìrora náà kò bá dín kù nínú ìṣẹ́jú díẹ̀."
+  },
+  {
+    "symptom": "weakness_in_limbs",
+    "yoruba": [
+      "Ara dídùn",
+      "Ẹsẹ̀ àti ọwọ́ lílọ bẹ́rẹ́bẹ́rẹ́",
+      "Àìlókun nínú iṣan"
+    ],
+    "recommendation": "Jẹ oúnjẹ tó ní èròjà 'potassium' bíi ọ̀gẹ̀dẹ̀ àti èso púpọ̀ láti fún iṣan rẹ ní okun, sinmi ara rẹ dáadáa, kí o sì lọ rí dókítà bí àìlókun náà bá ń mú kí o má le rìn dáadáa."
+  },
+  {
+    "symptom": "fast_heart_rate",
+    "yoruba": [
+      "Ọkàn ń lù yára",
+      "Ìyára lù ọkàn",
+      "Ọkàn sísun kánjúkánjú"
+    ],
+    "recommendation": "Sinmi jẹ́ẹ́ kí o sì gba èémí sínú jinlẹ̀-jinlẹ̀ láti mú kí ọkàn rẹ balẹ̀, yàgò fún kọfí tàbí otí líle, kí o sì lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ bí ọkàn rẹ bá ń lù bẹ́ẹ̀ láìní ìsinmi."
+  },
+
+
+  {
+    "symptom": "pain_during_bowel_movements",
+    "yoruba": [
+      "Ìrora nígbà ìgbẹ́",
+      "Ìgbẹ́ títunini",
+      "Ìrora láti ìdí nígbà ìgbọ́n-sẹ̀"
+    ],
+    "recommendation": "Mu omi púpọ̀ lójúmọ́ kí o sì jẹ oúnjẹ tó ní okun (fiber) láti jẹ́ kí ìgbẹ́ rọ̀, kí o sì lọ rí dókítà bí ìrora náà bá tẹ̀síwájú."
+  },
+  {
+    "symptom": "pain_in_anal_region",
+    "yoruba": [
+      "Ìrora ní ìdí",
+      "Ìdí dídùn",
+      "Ìrora nínú ihò ìdí"
+    ],
+    "recommendation": "Wẹ ara rẹ pẹ̀lú omi títura (Sitz bath) láti tu ìrora náà lọ́wọ́ kí o sì lo ìkunrà tó tọ́, lẹ́yìn náà lọ rí dókítà bí o bá fura sí ìyọyọ-ìdí (hemorrhoids)."
+  },
+  {
+    "symptom": "bloody_stool",
+    "yoruba": [
+      "Ìgbẹ́ ẹjẹ̀",
+      "Ẹjẹ̀ nínú ìgbẹ́",
+      "Ìgbẹ́ pupa kòyòkòyò"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ nítorí èyí le jẹ́ àmì ìṣòro nínú ìfun rẹ tó nílò ìdánwò lójú ẹsẹ̀ látọwọ́ dókítà."
+  },
+  {
+    "symptom": "irritation_in_anus",
+    "yoruba": [
+      "Ìdí yíyun",
+      "Ìrora yíyun ní ìdí",
+      "Ìdí ń hun mi"
+    ],
+    "recommendation": "Jẹ́ kí agbègbè ìdí rẹ mọ́ kí o sì gbẹ dáadáa lẹ́yìn ìgbẹ́ kọ̀ọ̀kan, kí o sì lọ rí dókítà láti ṣàyẹ̀wò kòkòrò inú ìfun bí yíyun náà bá ju ọjọ́ méjì lọ."
+  },
+  {
+    "symptom": "neck_pain",
+    "yoruba": [
+      "Ọrùn rírun",
+      "Ọrùn dídùn",
+      "Ìmọ̀lára líle nínú ọrùn"
+    ],
+    "recommendation": "Sinmi ọrùn rẹ nípa lílo ìpùlọ̀ (pillow) tó tẹ́jú kí o sì lo epo gbígbóná pẹ̀lú 'Paracetamol' láti dín ìrora kù, kí o sì rí dókítà bí ọrùn rẹ bá le débi pé o kò le tẹ̀ ẹ́."
+  },
+  {
+    "symptom": "dizziness",
+    "yoruba": [
+      "Orí yíyí",
+      "Ojú dídà",
+      "Ìmọ̀lára bí ẹni fẹ́ ṣubú"
+    ],
+    "recommendation": "Jókòó tàbí kí o dùbúlẹ̀ lẹ́sẹ̀kẹ̀sẹ̀ láti dènà sísubú, mu omi léraléra láti sọjí ara rẹ, kí o sì lọ sí ilé ìwòsàn bí orí yíyí náà bá ń fa èébì tàbí dídàjẹ́."
+  },
+  {
+    "symptom": "cramps",
+    "yoruba": [
+      "Iṣan fífà",
+      "Ìfàmúṣan",
+      "Iṣan dídùn kọyọkọyo"
+    ],
+    "recommendation": "Rọra na ara rẹ jẹ́ẹ́jẹ́ kí o sì lo epo gbígbóná láti tu iṣan náà, mu omi tó ní iyọ̀ díẹ̀ nínú, kí o sì lọ rí dókítà bí iṣan rẹ bá ń fà léraléra láìní ìsinmi."
+  },
+  {
+    "symptom": "bruising",
+    "yoruba": [
+      "Ẹ̀jẹ̀ dídì abẹ́ awọ",
+      "Ara pípọ́n lẹ́yìn ìfarapa",
+      "Àpá ẹ̀jẹ̀"
+    ],
+    "recommendation": "Lo yìnyín (ice pack) sí ojú ibi tó pọ́n náà láti dín ìwúkù kù kí o sì gbé e sókè, lẹ́yìn náà lọ rí dókítà bí àpá ẹ̀jẹ̀ náà bá ń jáde fúnra rẹ̀ láìsí ìfarapa."
+  },
+  {
+    "symptom": "obesity",
+    "yoruba": [
+      "Sísanra jọjọ",
+      "Ìwúwo ara tó pọ̀ jù",
+      "Ara kíkì fún ọ̀rá"
+    ],
+    "recommendation": "Dín iye oúnjẹ tó ní ṣúgà àti ọ̀rá kù kí o sì máa ṣe eré ìmárale lojoojúmọ́, kí o sì lọ rí dókítà fún ìmọ̀ràn lórí bí o ṣe le dín ìwúwo ara rẹ kù ní ọ̀nà tó dára."
+  },
+  {
+    "symptom": "swollen_legs",
+    "yoruba": [
+      "Ẹsẹ̀ wíwù",
+      "Ara títẹ̀ ní ẹsẹ̀",
+      "Omi sísun sí ẹsẹ̀"
+    ],
+    "recommendation": "Gbé ẹsẹ̀ rẹ sókè nígbà tí o bá jókòó kí o sì dín lilo iyọ̀ kù nínú oúnjẹ, kí o sì lọ sí ilé ìwòsàn kíákíá bí ẹsẹ̀ náà bá ń dun ọ́ tàbí tó bá ń pọ́n kọyọkọyo."
+  },
+  {
+    "symptom": "swollen_blood_vessels",
+    "yoruba": [
+      "Iṣan ẹ̀jẹ̀ wíwù",
+      "Iṣan pupa tó yọ jáde",
+      "Ìwúkù iṣan ara"
+    ],
+    "recommendation": "Gbé apá tàbí ẹsẹ̀ tó wú náà sókè kí o sì lo 'compression stockings' láti jẹ́ kí ẹ̀jẹ̀ rìn dáadáa, kí o sì lọ rí dókítà fún ìdánwò iṣan 'Varicose veins'."
+  },
+  {
+    "symptom": "puffy_face_and_eyes",
+    "yoruba": [
+      "Ojú àti ojú wíwù",
+      "Ìwúkù iwájú ojú",
+      "Ojú fùfù"
+    ],
+    "recommendation": "Dín iye iyọ̀ nínú oúnjẹ rẹ kù kí o sì mu omi púpọ̀ láti fọ èròjà 'sodium' kúrò nínú ara, kí o sì lọ rí dókítà bí ojú rẹ bá ń wú ní gbogbo ìgbà lẹ́yìn oorun alẹ́."
+  },
+  {
+    "json_error_correction": "Note: 'Enlarged Thyroid' is properly 'Gúrẹ́pù ọfun' or 'Ìwúkù iṣan ọfun'.",
+    "symptom": "enlarged_thyroid",
+    "yoruba": [
+      "Gúrẹ́pù ọfun",
+      "Iwájú ọrùn wíwù",
+      "Ìwúkù iṣan ọfun"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ fún ìdánwò 'Thyroid' láti mọ̀ bóyá o ní àìtó èròjà 'iodine' tàbí ìṣòro abẹ́nú kan nínú ọrùn rẹ."
+  },
+  {
+    "json_error_correction": "Note: 'Brittle nails' refers to 'Èékánná' not 'Ẹ̀ka' (branch).",
+    "symptom": "brittle_nails",
+    "yoruba": [
+      "Èékánná tó ń fọ́",
+      "Èékánná rírọ̀",
+      "Àìlera èékánná"
+    ],
+    "recommendation": [
+      "Jẹ oúnjẹ tó kún fún èròjà 'Biotin' àti 'Protein' láti fún èékánná rẹ ní okun, kí o sì lọ rí dókítà bí èékánná rẹ bá ń yí àwọ̀ padà tàbí tó ń fọ́ jù."
+    ]
+  },
+  {
+    "symptom": "swollen_extremeties",
+    "yoruba": [
+      "Ẹsẹ̀ àti ọwọ́ wíwù",
+      "Oríkèé ara tó wú",
+      "Ara títẹ̀ fún omi"
+    ],
+    "recommendation": "Gbé apá àti ẹsẹ̀ rẹ sókè léraléra kí o sì dín iye iyọ̀ nínú oúnjẹ rẹ kù, kí o sì lọ sí ilé ìwòsàn láti ṣàyẹ̀wò kíndìnrín tàbí ọkàn rẹ bí ìwúkù náà kò bá dín kù."
+  },
+  {
+    "symptom": "excessive_hunger",
+    "yoruba": [
+      "Ebi tó pọ̀ jù",
+      "Àìjẹ-yó",
+      "Ìfẹ́ láti máa jẹun ní gbogbo ìgbà"
+    ],
+    "recommendation": [
+      "Jẹ oúnjẹ alábàápádé tó ní okun (fiber) láti mú kí o yó pẹ́, kí o sì lọ rí dókítà fún ìdánwò ṣúgà (Diabetes) bí ebi náà bá ń pọ̀ sí i pẹ̀lú òùngbẹ."
+    ]
+  },
+
+  {
+    "symptom": "extra_marital_contacts",
+    "yoruba": [
+      "Ìbálòpọ̀ púpọ̀",
+      "Ìbálòpọ̀ lẹ́yìn ìgbéyàwó",
+      "Àìní-ìkóra-ẹni-nijánu nídìí ìbálòpọ̀"
+    ],
+    "recommendation": "Máa lo 'kondomu' nígbà gbogbo láti dènà àrùn, kí o sì lọ sí ilé ìwòsàn fún ìdánwò àrùn ìbálòpọ̀ (STI) léraléra bí o bá ní ju alábàákẹ́gbẹ́ kan lọ."
+  },
+  {
+    "symptom": "drying_and_tingling_lips",
+    "yoruba": [
+      "Ẹnu ń gbẹ àti ń yun",
+      "Ètè títura",
+      "Ètè fífà"
+    ],
+    "recommendation": "Mu omi púpọ̀ lójúmọ́ kí o sì lo ìkunrà ètè (lip balm) láti jẹ́ kí ètè rẹ rọ̀, kí o sì lọ rí dókítà bí ètè rẹ bá ń bẹ́ tàbí tó ń dà nù."
+  },
+  {
+    "symptom": "slurred_speech",
+    "yoruba": [
+      "Ọ̀rọ̀ kò ṣe kedere",
+      "Ahọ́n dídì",
+      "Kíkólòlò lójijì"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ nítorí èyí jẹ́ àmì pájáwìrì tí ó le jẹ mọ́ ìṣèlẹ̀ ọpọlọ (stroke) tó gba ìtọ́jú gidi."
+  },
+  {
+    "symptom": "knee_pain",
+    "yoruba": [
+      "Orúnkún ń dun",
+      "Ìrora lórí orúnkún",
+      "Orúnkún rírun"
+    ],
+    "recommendation": "Sinmi orúnkún rẹ kí o sì lo yìnyín (ice pack) àti epo gbígbóná láti dín ìrora náà kù, kí o sì rí dókítà bí orúnkún rẹ bá wú tàbí tí kò bá jẹ́ kí o rìn dáadáa."
+  },
+  {
+    "symptom": "hip_joint_pain",
+    "yoruba": [
+      "Ẹgbẹ́ ìdí dídùn",
+      "Ìrora oríkèé-ara nídìí",
+      "Ìjókòó dídùn"
+    ],
+    "recommendation": "Dín iṣẹ́ agidi kù kí o sì rọra ṣe ìsanra fẹ́rẹ́fẹ́ láti tu oríkèé-ara rẹ, lẹ́yìn náà lọ rí dókítà bí ìrora náà bá ń tàn lọ sí ẹsẹ̀ rẹ."
+  },
+  {
+    "symptom": "muscle_weakness",
+    "yoruba": [
+      "Ẹran ara rírẹ̀",
+      "Àìlókun nínú iṣan",
+      "Iṣan ara rọ̀"
+    ],
+    "recommendation": "Jẹ oúnjẹ tó kún fún amuaradagba (protein) kí o sì sinmi dáadáa láti sọjí iṣan rẹ, kí o sì rí dókítà bí àìlókun náà bá ń mú kí o má le gbé nkan tó fúyẹ́."
+  },
+  {
+    "symptom": "stiff_neck",
+    "yoruba": [
+      "Ọrùn líle",
+      "Ìmọ̀lára igi nínú ọrùn",
+      "Ọrùn tí kò le tẹ̀"
+    ],
+    "recommendation": "Rọra lo epo gbígbóná láti tu ọrùn rẹ kí o sì sinmi dáadáa, ṣùgbọ́n lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ bí ọrùn líle náà bá tún ní ìfọrí àti ìbà pẹ̀lú."
+  },
+  {
+    "symptom": "swelling_joints",
+    "yoruba": [
+      "Oríkèé-ara wíwù",
+      "Ẹgbẹ́ ń wú",
+      "Ara títẹ̀ ní oríkèé"
+    ],
+    "recommendation": "Sinmi apá tàbí ẹsẹ̀ tó wú náà kí o sì lo omi títura láti mú kí ìwúkù náà rọ̀, lẹ́yìn náà lọ rí dókítà fún ìdánwò 'arthritis' tàbí kòkòrò nínú oríkèé."
+  },
+  {
+    "symptom": "movement_stiffness",
+    "yoruba": [
+      "Ara líle nígbà ìrìn",
+      "Àìle-rìn-dáadáa",
+      "Iṣan dídì mọ́ra"
+    ],
+    "recommendation": "Máa ṣe eré ìmárale pẹ́ẹ́pẹ̀ẹ̀pẹ́ ní gbogbo òwúrọ̀ láti mú kí ara rẹ rọ̀, kí o sì lọ rí dókítà bí ara rẹ bá ń le débi pé o kò le gbé ẹsẹ̀ rẹ mọ́."
+  },
+  {
+    "symptom": "spinning_movements",
+    "yoruba": [
+      "Yíyí",
+      "Orí yíyí dídì",
+      "Ìmọ̀lára bí ẹni pé ayé ń yí"
+    ],
+    "recommendation": "Jókòó tàbí kí o dùbúlẹ̀ kí o sì pa ojú rẹ tì láti mú kí ayé dẹ́kun yíyí mọ́ ọ lójú, kí o sì lọ rí dókítà bí yíyí náà bá ń mú kí o bì tàbí kí o dánú."
+  },
+  {
+    "symptom": "loss_of_balance",
+    "yoruba": [
+      "Àìní ìwọ̀ntúnwọ̀nsì",
+      "Ara kò dúró sójú kan",
+      "Ẹsẹ̀ kò dúró nílẹ̀"
+    ],
+    "recommendation": "Pa iṣẹ́ tí o ń ṣe tì lẹ́sẹ̀kẹ̀sẹ̀ kí o sì jókòó láti dènà sísubú, mu omi tútù, kí o sì lọ rí dókítà láti ṣàyẹ̀wò inú etí rẹ tàbí ọpọlọ."
+  },
+  {
+    "symptom": "unsteadiness",
+    "yoruba": [
+      "Àìdúró dáadáa",
+      "Ara ń mì tìtì",
+      "Ìrìn wọ̀kọ̀wọ̀kọ̀"
+    ],
+    "recommendation": "Sinmi dáadáa kí o sì lo ọ̀pá tàbí àtìlẹ́yìn láti rìn fún ìgbà díẹ̀, lẹ́yìn náà lọ rí dókítà bí àìdúró náà bá ń pọ̀ sí i débi pé o kò le rìn sójú kan."
+  },
+  {
+    "symptom": "weakness_of_one_body_side",
+    "yoruba": [
+      "Ẹgbẹ́ kan rírẹ̀ lójijì",
+      "Àìlókun ní apá kan ara",
+      "Apá tàbí ẹsẹ̀ kan dídì"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ láìjáfara nítorí èyí jẹ́ àmì gidi pé ìṣòro ọpọlọ 'stroke' ti fẹ́ ṣẹlẹ̀ tàbí ó ti ṣẹlẹ̀."
+  },
+  {
+    "symptom": "loss_of_smell",
+    "yoruba": [
+      "Kò rí òórùn mọ́",
+      "Imú dídì tó ń gba òórùn mọ́",
+      "Àìgbọ́-òórùn"
+    ],
+    "recommendation": "Gba èémí sínú lórí omi gbígbóná láti ṣí ọ̀nà imú rẹ kí o sì rí i dájú pé o kò ní òtútù, kí o sì rí dókítà bí àìgbọ́-òórùn náà bá ju ọ̀sẹ̀ kan lọ."
+  },
+  {
+    "symptom": "bladder_discomfort",
+    "yoruba": [
+      "Àpò ìtò dídùn",
+      "Ìrora nísàlẹ̀ inú",
+      "Inú rírun nígbà ìtò"
+    ],
+    "recommendation": "Mu omi púpọ̀ léraléra láti fọ àpò ìtò rẹ mọ́ kí o sì yàgò fún kọfí tàbí otí, lẹ́yìn náà lọ rí dókítà bí ìrora náà bá ń tẹ̀síwájú nítorí ó le jẹ́ kòkòrò (UTI)."
+  },
+  {
+    "symptom": "foul_smell_of_urine",
+    "yoruba": [
+      "Òórùn ìtò tó burú",
+      "Ìtò tó ń rùn",
+      "Ìtò tó rùn gàn-àn-ní"
+    ],
+    "recommendation": "Mu omi púpọ̀ kí o sì rí i dájú pé o mọ́tótó ní agbègbè ibi ìtò rẹ dáadáa, kí o sì lọ sí ilé ìwòsàn fún ìdánwò ìtò (Urinalysis) láti mọ̀ bóyá kòkòrò ló fa òórùn náà."
+  },
+  {
+    "symptom": "continuous_feel_of_urine",
+    "yoruba": [
+      "Nígbà gbogbo ń fẹ́ tọ̀",
+      "Ìtò léraléra",
+      "Àìle-di-ìtò-mọ́"
+    ],
+    "recommendation": "Dín iye ohun mímu tó ní ṣúgà tàbí kọfí kù kí o sì mu omi ní ìwọ̀nba, kí o sì lọ rí dókítà fún ìdánwò ṣúgà (Diabetes) tàbí ìṣòro àpò ìtò."
+  },
+
+ 
+  {
+    "symptom": "passage_of_gases",
+    "yoruba": [
+      "Sísun tàbí dídánu ẹ̀fẹ́",
+      "Inú títí",
+      "Atẹ́gù púpọ̀ nínú inú"
+    ],
+    "recommendation": "Yàgò fún àwọn oúnjẹ tó ń dá atẹ́gù sílẹ̀ nínú inú bíi ẹ̀wà tàbí ohun mímu tó ní 'gas', kí o sì lọ rí dókítà bí inú rírun bá tẹ̀síwájú."
+  },
+  {
+    "symptom": "internal_itching",
+    "yoruba": [
+      "Inú ara yíyun",
+      "Ìmọ̀lára kòkòrò nínú ara",
+      "Ara yíyun látinú"
+    ],
+    "recommendation": "Mu omi púpọ̀ láti fọ èròjà aìsàn kúrò nínú ara kí o sì lọ rí dókítà fún ìdánwò kòkòrò nínú ẹ̀jẹ̀ tàbí 'allergy' abẹ́nú."
+  },
+  {
+    "symptom": "toxic_look_(typhos)",
+    "yoruba": [
+      "Ojú dídà bí ẹni tí ó jẹ májèlé",
+      "Àìlera tó rẹwà kọyọkọyo",
+      "Ojú dídá fún àìsàn líle"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ nítorí èyí jẹ́ àmì àìsàn tó le bíi 'typhoid' tàbí ibà malaria tó kọjá àyè tó nílò ìtọ́jú pàjáwìrì."
+  },
+  {
+    "symptom": "depression",
+    "yoruba": [
+      "Ẹ̀dùn ọkàn tó ga",
+      "Ìrònú kíkankíkan",
+      "Ọkàn tí kò balẹ̀"
+    ],
+    "recommendation": "Sọ̀rọ̀ pẹ̀lú ẹni tó o fọkàn tán tàbí dókítà ọkàn (Psychiatrist) láti rí ìrànlọ́wọ́ kí o sì sinmi dáadáa kúrò nínú wàhálà ayé."
+  },
+  {
+    "symptom": "irritability",
+    "yoruba": [
+      "Ìbínú lójijì",
+      "Ọkàn títètè ru",
+      "Àìní sùúrù nítorí àìlera"
+    ],
+    "recommendation": "Gba èémí sínú jinlẹ̀-jinlẹ̀ láti mú kí ọkàn rẹ balẹ̀ kí o sì yàgò fún ohunkóhun tó le fa wàhálà, lẹ́yìn náà lọ rí dókítà bí ọkàn rẹ kò bá balẹ̀."
+  },
+  {
+    "symptom": "muscle_pain",
+    "yoruba": [
+      "Ẹran-ara dídùn",
+      "Iṣan ara rírun",
+      "Ìrora nínú ẹran-ara"
+    ],
+    "recommendation": "Sinmi ara rẹ kí o sì rọra lo epo gbígbóná pẹ̀lú oògùn apalẹ̀-ìrora bíi 'Paracetamol', kí o sì lọ rí dókítà bí ìrora náà bá ń dí ọ lọ́wọ́ láti ṣiṣẹ́."
+  },
+  {
+    "symptom": "altered_sensorium",
+    "yoruba": [
+      "Ọkàn kò ṣe kedere",
+      "Ìdàrúdàpọ̀ ọpọlọ",
+      "Àìle-mọ-ibiri-tàbí-ẹni"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ láìjáfara rárá nítorí èyí jẹ́ àmì pàjáwìrì tó le jẹ mọ́ àìsàn ọpọlọ tàbí àìtó ṣúgà nínú ẹ̀jẹ̀."
+  },
+  {
+    "symptom": "belly_pain",
+    "yoruba": [
+      "Inú rírun",
+      "Ìrora nísàlẹ̀ inú",
+      "Inú dídùn"
+    ],
+    "recommendation": "Mu omi gbóná fẹ́rẹ́fẹ́ kí o sì yàgò fún oúnjẹ tó le tàbí tó ní epo púpọ̀, kí o sì lọ rí dókítà bí rírun náà bá pọ̀ jù nínú wakati méjì."
+  },
+  {
+    "symptom": "abnormal_menstruation",
+    "yoruba": [
+      "Nǹkan oṣù tí kò tọ̀nà",
+      "Àìrí nǹkan oṣù gẹ́gẹ́ bí iṣẹ́",
+      "Ìgbé-nǹkan-oṣù-jáde púpọ̀"
+    ],
+    "recommendation": "Lọ rí dókítà àwọn obìnrin (Gynecologist) fún ìyẹ̀wò tó kúnnà láti mọ ohun tó fa ìyípadà nínú nǹkan oṣù rẹ."
+  },
+  {
+    "symptom": "dischromic_patches",
+    "yoruba": [
+      "Àwọ̀ ara yíyípadà",
+      "Ìdàpọ̀ àwọ̀ lójú awọ",
+      "Àwọ̀ ara tí kò dọ́gba"
+    ],
+    "recommendation": "Yàgò fún lílo oògùn ìkunrà tó lágbára tàbí kí o dúró nínú oòrùn púpọ̀, kí o sì lọ rí dókítà awọ (Dermatologist) fún ìtọ́jú tó tọ́."
+  },
+  {
+    "symptom": "watering_from_eyes",
+    "yoruba": [
+      "Ojú sísun omi",
+      "Omi dídà lójú",
+      "Ojú dídúndùn pẹ̀lú omi"
+    ],
+    "recommendation": "Lo omi mímọ́ láti fi nu ojú rẹ kí o sì yàgò fún eruku tàbí èéfín, kí o sì lọ rí dókítà ojú bí omi náà kò bá dẹ́kun sísun."
+  },
+  {
+    "symptom": "polyuria",
+    "yoruba": [
+      "Ìtò púpọ̀ jù",
+      "Ìtò léraléra",
+      "Ìtò kọjá ìwọ̀n"
+    ],
+    "recommendation": "Máa mu omi púpọ̀ láti dènà àìtó omi nínú ara kí o sì lọ rí dókítà fún ìdánwò ṣúgà (Diabetes) tàbí ìdánwò kíndìnrín."
+  },
+  {
+    "symptom": "visual_disturbances",
+    "yoruba": [
+      "Ojú wíwò baibai",
+      "Ìríran kùrukùru",
+      "Ojú tí kò ríran dáadáa"
+    ],
+    "recommendation": "Sinmi ojú rẹ kí o sì yàgò fún tẹlifóònù tàbí kọ̀ǹpútà, lẹ́yìn náà lọ sí ilé ìwòsàn ojú lẹ́sẹ̀kẹ̀sẹ̀ fún ìyẹ̀wò látọwọ́ dókítà."
+  },
+  {
+    "symptom": "receiving_blood_transfusion",
+    "yoruba": [
+      "Gbígba ẹ̀jẹ̀ sí ara",
+      "Ìfúnni-ní-ẹ̀jẹ̀",
+      "Gbígba ẹ̀jẹ̀ nítorí àìlera"
+    ],
+    "recommendation": "Lọ rí dókítà lẹ́yìn gbígba ẹ̀jẹ̀ láti rí i dájú pé ara rẹ gba ẹ̀jẹ̀ tuntun náà dáadáa láìsí àkóràn tàbí ìṣòro kankan."
+  },
+  {
+    "symptom": "coma",
+    "yoruba": [
+      "Wà ní 'comaa'",
+      "Àìrímọ́tọ̀",
+      "Ìmọ̀lára tí kò jí pépé rárá"
+    ],
+    "recommendation": "Pè fún ìrànlọ́wọ́ pàjáwìrì tàbí gbé ẹni náà lọ sí ilé ìwòsàn tó lágbára jùlọ lẹ́sẹ̀kẹ̀sẹ̀ nítorí èyí jẹ́ pàjáwìrì ẹ̀mí."
+  },
+  {
+    "symptom": "stomach_bleeding",
+    "yoruba": [
+      "Inú ń ṣẹ̀jẹ̀",
+      "Èébì ẹ̀jẹ̀",
+      "Ẹjẹ̀ nínú inú"
+    ],
+    "recommendation": "Dúró lẹ́sẹ̀kẹ̀sẹ̀ kí o sì lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ nítorí èjẹ̀ kíkọ nínú inú le fa ikú bí a kò bá tọ́jú rẹ̀ kíákíá."
+  },
+  {
+    "symptom": "distention_of_abdomen",
+    "yoruba": [
+      "Inú wíwù",
+      "Inú sísun",
+      "Inú ríru"
+    ],
+    "recommendation": "Dín iye iyọ̀ àti oúnjẹ tó ní ọ̀rá kù nínú oúnjẹ rẹ kí o sì mu omi ní ìwọ̀nba, kí o sì lọ rí dókítà fún ìdánwò ẹdọ tàbí inú."
+  },
+  {
+    "symptom": "palpitations",
+    "yoruba": [
+      "Ọkàn sísùn kánjú",
+      "Ọkàn lù yàrà",
+      "Àìbalẹ̀ ọkàn lójijì"
+    ],
+    "recommendation": "Jókòó jẹ́ẹ́ kí o sì gba èémí sínú jinlẹ̀-jinlẹ̀ láti mú kí lùlù ọkàn rẹ rọ̀, yàgò fún kọfí, kí o sì lọ rí dókítà bí ó bá ń fa mímí-kíkankan."
+  },
+  
+    
+  {
+    "symptom": "scurring",
+    "yoruba": [
+      "Ìgbẹ́ ara",
+      "Àpá lójú awọ",
+      "Ara kíkù"
+    ],
+    "recommendation": "Máa lo ìkunrà tó tọ́ láti jẹ́ kí ojú àpá náà rọ̀ kí o sì rí i dájú pé awọ ara rẹ mọ́ ní gbogbo ìgbà, lẹ́yìn náà lọ rí dókítà bí àpá náà bá ń gbilẹ̀."
+  },
+  {
+    "symptom": "skin_peeling",
+    "yoruba": [
+      "Ara ń bóhó",
+      "Èèpù ara",
+      "Awọ ara tó ń bọ́"
+    ],
+    "recommendation": "Lo ìkunrà tó máa ń jẹ́ kí awọ rọ̀ (moisturizer) kí o sì yàgò fún dídúró nínú oòrùn gangan, lẹ́yìn náà lọ rí dókítà bí ara rẹ bá ń bóhó léraléra."
+  },
+  {
+    "symptom": "inflammatory_nails",
+    "yoruba": [
+      "Èékánná ń wú",
+      "Ìdàpọ̀ iṣan èékánná",
+      "Èékánná tó ń dunni"
+    ],
+    "recommendation": "Rẹ èékánná rẹ sínú omi iyọ̀ títura láti pa kòkòrò kí o sì dín ìwúkù kù, lẹ́yìn náà lọ rí dókítà bí èékánná náà bá ń ṣọyún."
+  },
+  {
+    "symptom": "blister",
+    "yoruba": [
+      "Ẹ̀fọ́",
+      "Omi sísun sábẹ́ awọ",
+      "Ara sísun"
+    ],
+    "recommendation": "Má ṣe fọ́ ẹ̀fọ́ náà rárá láti dènà àkóràn kòkòrò, rọra bo pẹ̀lú gèlè mọ́ tàbí 'bandage', kí o sì lọ rí dókítà bí omi inú rẹ̀ bá di pípọ́n."
+  },
+  {
+    "symptom": "blood_in_stool",
+    "yoruba": [
+      "Ẹjẹ̀ nínú ìgbẹ́",
+      "Ìgbẹ́ ẹjẹ̀",
+      "Ìgbẹ́ pupa"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ fún ìyẹ̀wò tó kúnnà nítorí èjẹ̀ nínú ìgbẹ́ le jẹ́ àmì ìṣòro nínú ìfun tàbí ẹgbẹ́ ìdí."
+  },
+  {
+    "symptom": "night_sweats",
+    "yoruba": [
+      "Òógùn alẹ́",
+      "Ara rírìn ní òru",
+      "Òógùn kíkankíkan nígbà oorun"
+    ],
+    "recommendation": "Mu omi púpọ̀ láti sọjí ara rẹ kí o sì sinmi níbi tí afẹ́fẹ́ tútù wà, lẹ́yìn náà lọ rí dókítà fún ìdánwò àìsàn abẹ́nú bí òógùn náà bá ń rọ̀ ọ́ lojoojúmọ́."
+  },
+  {
+    "symptom": "swollen_feet",
+    "yoruba": [
+      "Ẹsẹ̀ wíwù",
+      "Ara títẹ̀ ní ẹsẹ̀",
+      "Omi sísun sí ẹsẹ̀"
+    ],
+    "recommendation": "Gbé ẹsẹ̀ rẹ sókè ju ìbàdí rẹ lọ nígbà tí o bá sùn kí o sì dín lilo iyọ̀ kù nínú oúnjẹ, kí o sì lọ rí dókítà láti ṣàyẹ̀wò kíndìnrín tàbí ọkàn rẹ."
+  },
+  {
+    "symptom": "blood_in_vomit",
+    "yoruba": [
+      "Ẹjẹ̀ nínú èébì",
+      "Èébì ẹ̀jẹ̀",
+      "Mímú-ẹ̀jẹ̀-jáde látinú"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ láìjáfara nítorí èyí jẹ́ pájáwìrì gidi tó nílò ìtọ́jú dókítà ní kíákíá."
+  },
+  {
+    "symptom": "yellow_eyes",
+    "yoruba": [
+      "Ojú dídà bí ofeefee",
+      "Ojú pípọ́n kọyọkọyo",
+      "Ojú ofeefee"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lójú ẹsẹ̀ fún ìdánwò ẹdọ (Liver test) nítorí èyí jẹ́ àmì àìsàn 'Jaundice' tàbí 'Hepatitis'."
+  },
+  {
+    "symptom": "enlarged_spleen",
+    "yoruba": [
+      "Ọlọ́ títóbi",
+      "Ìwúkù ọlọ́",
+      "Inú dídùn ní apá òsì"
+    ],
+    "recommendation": "Lọ rí dókítà fún ìyẹ̀wò 'ultrasound' kí o sì yàgò fún eré ìdárayá líle tó le ba ọlọ́ rẹ jẹ́, kí o sì tẹ̀lé ìlànà oògùn tó bá tọ́."
+  },
+  {
+    "symptom": "rash_with_fever",
+    "yoruba": [
+      "Ara yíyun pẹ̀lú ìbà",
+      "Ẹ̀fúùfú ara pẹ̀lú igbóná-ara",
+      "Ìgbẹ ara àti ooru"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ nítorí àpòpọ̀ ìbà àti ìyányán ara le jẹ́ àmì àìsàn kòkòrò tó lágbára bíi 'measles' tàbí 'meningitis'."
+  },
+  {
+    "symptom": "swollen_gums",
+    "yoruba": [
+      "Ẹ̀rẹ̀kẹ́ inú wíwù",
+      "Iṣan eyín tó wú",
+      "Ìrora lórí iṣan eyín"
+    ],
+    "recommendation": "Fi omi iyọ̀ títura ṣù ẹnu rẹ léraléra láti dín ìrora kù, kí o sì lọ rí dókítà eyín (Dentist) láti ṣàyẹ̀wò kòkòrò tó wà nínú iṣan eyín rẹ."
+  },
+  {
+    "symptom": "bleeding_gums",
+    "yoruba": [
+      "Ẹjẹ̀ nínú iṣan eyín",
+      "Ẹjẹ̀ tó ń jáde láti ẹ̀rẹ̀kẹ́ inú",
+      "Ìfọyín ẹ̀jẹ̀"
+    ],
+    "recommendation": "Rọra fọ eyín rẹ pẹ̀lú 'brush' tó rọ̀ kí o sì jẹ oúnjẹ tó kún fún 'Vitamin C', lẹ́yìn náà lọ rí dókítà eyín bí ẹ̀jẹ̀ náà bá ń jáde léraléra."
+  },
+  {
+    "symptom": "testicular_pain",
+    "yoruba": [
+      "Wòrópò ń dun mi",
+      "Ìrora lórí ẹyin-mágà",
+      "Ẹyin-mágà rírun"
+    ],
+    "recommendation": "Sinmi dáadáa kí o sì lo oògùn apalẹ̀-ìrora, ṣùgbọ́n lọ rí dókítà lẹ́sẹ̀kẹ̀sẹ̀ bí ìrora náà bá le gan-an nítorí èyí jẹ́ pájáwìrì fún ọkùnrin."
+  },
+  {
+    "symptom": "painful_urination",
+    "yoruba": [
+      "Ìtò títunini",
+      "Àtòsí",
+      "Ìrora nígbà ìtò"
+    ],
+    "recommendation": "Mu omi púpọ̀ láti fọ ọ̀nà ìtò rẹ mọ́ kí o sì lọ rí dókítà fún ìdánwò kòkòrò (Infection) bí ìtò rẹ bá ń gbin tàbí tó ń ta ọ́."
+  },
+  {
+    "symptom": "swollen_breasts",
+    "yoruba": [
+      "Ọmú wíwù",
+      "Ìyànmú-mú",
+      "Ìmọ̀lára líle nínú ọmú"
+    ],
+    "recommendation": "Sinmi dáadáa kí o sì lo aṣọ títura láti tu ìrora náà, lẹ́yìn náà lọ rí dókítà láti ṣàyẹ̀wò ohun tó fa ìwúkù náà bí kò bá jẹ́ mọ́ nǹkan oṣù."
+  },
+  {
+    "symptom": "breast_lump",
+    "yoruba": [
+      "Kókó nínú ọmú",
+      "Ìmọ̀lára ohun líle nínú ọmú",
+      "Kókó tó ń dunni"
+    ],
+    "recommendation": "Lọ sí ilé ìwòsàn lẹ́sẹ̀kẹ̀sẹ̀ fún ìyẹ̀wò tó kúnnà látọwọ́ dókítà láti rí i dájú pé kókó náà kò jẹ́ mọ́ àrùn 'cancer'."
+  },
+  {
+    "symptom": "frequent_urination",
+    "yoruba": [
+      "Ìtò púpọ̀",
+      "Ìtò ṣúgà",
+      "Ìtò léraléra"
+    ],
+    "recommendation": "Ṣe ìdánwò ṣúgà lójú ẹsẹ̀ kí o sì mu omi ní ìwọ̀nba, lẹ́yìn náà lọ rí dókítà láti ṣàyẹ̀wò kíndìnrín rẹ bí o bá ń tọ̀ ju ìgbà mẹ́wàá lọ lójúmọ́."
+  },
+  {
+    "symptom": "sores_on_genitals",
+    "yoruba": [
+      "Ọgbẹ́ lórí àpò mímọ́",
+      "Ọgbẹ́ lójú ara",
+      "Ìyányán abẹ́"
+    ],
+    "recommendation": "Yàgò fún ìbálòpọ̀ kí o sì lọ rí dókítà lẹ́sẹ̀kẹ̀sẹ̀ fún ìyẹ̀wò àrùn ìbálòpọ̀ (STI) kí o le rí ìtọ́jú tó tọ́ gbà."
+  },
+  {
+    "symptom": "hearing_loss",
+    "yoruba": [
+      "Adítí",
+      "Etí ń romí",
+      "Etí ń ho"
+    ],
+    "recommendation": "Yàgò fún ariwo ńlá kí o sì dẹ́kun lílo nǹkan dídímú láti ha etí rẹ, lẹ́yìn náà lọ rí dókítà etí (ENT) bí etí rẹ bá ń ho tàbí tó ń dún."
+  }
+]
+ 
