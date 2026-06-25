@@ -11,17 +11,17 @@ class MedicalVoicePipeline:
         init_start = time.time()
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.api_key = os.getenv("YARNGPT_API_KEY", "")
+        self.api_key = "sk_live_nn1Pot6DEv8CxsxMJ95htsyUn9QTke22cnJExpd1BYI"
         self.tts_url = "https://yarngpt.ai/api/v1/tts"
 
         print(f"Using device: {self.device}")
 
         # =========================
-        # STAGE 1: Yoruba ASR MODEL LOAD
+        # STAGE 1: Pidgin ASR MODEL LOAD
         # =========================
         asr_start = time.time()
 
-        print("Loading Yoruba ASR model (NCAIR1/Yoruba-ASR)...")
+        print("Loading Pidgin ASR model (asr-nigerian-pidgin/pidgin-wav2vec2-xlsr53)...")
 
         try:
             os.environ["TRANSFORMERS_OFFLINE"] = "1"
@@ -30,7 +30,7 @@ class MedicalVoicePipeline:
 
             self.asr = pipeline(
                 "automatic-speech-recognition",
-                model="NCAIR1/Yoruba-ASR",
+                model="asr-nigerian-pidgin/pidgin-wav2vec2-xlsr53",
                 device=self.device
             )
 
@@ -45,7 +45,7 @@ class MedicalVoicePipeline:
 
             self.asr = pipeline(
                 "automatic-speech-recognition",
-                model="NCAIR1/Yoruba-ASR",
+                model="asr-nigerian-pidgin/pidgin-wav2vec2-xlsr53",
                 device=self.device
             )
 
@@ -60,7 +60,7 @@ class MedicalVoicePipeline:
 
         import json
 
-        with open("knowledge_base.json", "r", encoding="utf-8") as f:
+        with open("knowledge_base_pidgin.json", "r", encoding="utf-8") as f:
             self.knowledge_base = json.load(f)
 
         print(f"Professional Knowledge Base loaded with {len(self.knowledge_base)} symptoms!")
@@ -146,39 +146,42 @@ class MedicalVoicePipeline:
 
         best_match_response = None
         best_match_key = None
+        best_match_symptom = None
         highest_score = 0.0
 
         for item in self.knowledge_base:
 
             symptom_key = item["symptom"].replace("_", " ").lower()
 
-            yoruba_val = item["yoruba"]
+            pidgin_val = item["pidgin"]
 
-            if isinstance(yoruba_val, str):
-                yoruba_keys = [yoruba_val.lower()]
+            if isinstance(pidgin_val, str):
+                pidgin_keys = [pidgin_val.lower()]
             else:
-                yoruba_keys = [k.lower() for k in yoruba_val]
+                pidgin_keys = [k.lower() for k in pidgin_val]
 
             # Exact Match
-            for y_key in yoruba_keys:
+            for p_key in pidgin_keys:
 
-                if y_key in user_text or symptom_key in user_text:
+                if p_key in user_text or symptom_key in user_text:
 
-                    print(f"DEBUG: Exact match found for '{y_key}'")
+                    print(f"DEBUG: Exact match found for '{p_key}'")
                     print(f"Knowledge matching time: {time.time() - matching_start:.2f}s")
                     print(f"TOTAL RESPONSE GENERATION TIME: {time.time() - stage_start:.2f}s")
 
-                    return item["recommendation"]
+                    matched_phrase = p_key if p_key in user_text else symptom_key
+                    return item["recommendation"], item["symptom"], matched_phrase
 
             # Fuzzy Match
-            for y_key in yoruba_keys:
+            for p_key in pidgin_keys:
 
-                score = self.fuzzy_substring_score(y_key, user_text)
+                score = self.fuzzy_substring_score(p_key, user_text)
 
                 if score > highest_score:
                     highest_score = score
                     best_match_response = item["recommendation"]
-                    best_match_key = y_key
+                    best_match_key = p_key
+                    best_match_symptom = item["symptom"]
 
         print(f"Knowledge matching time: {time.time() - matching_start:.2f}s")
 
@@ -191,7 +194,7 @@ class MedicalVoicePipeline:
 
             print(f"TOTAL RESPONSE GENERATION TIME: {time.time() - stage_start:.2f}s")
 
-            return best_match_response
+            return best_match_response, best_match_symptom, best_match_key
 
         print(
             f"DEBUG: No match found. "
@@ -201,7 +204,7 @@ class MedicalVoicePipeline:
 
         print(f"TOTAL RESPONSE GENERATION TIME: {time.time() - stage_start:.2f}s")
 
-        return "E pele, mio gbọ ohun ti ẹ sọ. Ẹ jọ̀wọ́, ẹ tún sọ fún mi ní kíkún nípa bí ara yín ṣe rí."
+        return "Oga sorry oo, I no too understand wetin you talk. Abeg, try talk am again well-well make I know how your body dey do you.", None, None
 
     def text_to_speech(self, text: str):
         stage_start = time.time()
@@ -210,7 +213,7 @@ class MedicalVoicePipeline:
 
         payload = {
             "text": text,
-            "voice": "Idera",
+            "voice": "Adaora",
             "response_format": "wav"
         }
 
@@ -268,7 +271,7 @@ class MedicalVoicePipeline:
         # =========================
         stage2_start = time.time()
 
-        response_text = self.generate_response(text)
+        response_text, matched_symptom, matched_phrase = self.generate_response(text)
 
         stage2_time = time.time() - stage2_start
 
@@ -309,6 +312,8 @@ class MedicalVoicePipeline:
         return {
             "input_text": text,
             "response_text": response_text,
+            "matched_symptom": matched_symptom,
+            "matched_phrase": matched_phrase,
             "audio": audio_output,
             "sample_rate": sr
         }
