@@ -6,7 +6,7 @@ from pipeline import MedicalVoicePipeline
 from io import BytesIO
 from urllib.parse import quote
 
-app = FastAPI(title="Naija Medical Voice Assistant")
+app = FastAPI(title="Naija Medical Voice Assistant (Pidgin)")
 
 app.add_middleware(
     CORSMiddleware,
@@ -34,14 +34,18 @@ async def voice_assistant(file: UploadFile = File(...)):
     
     input_text_clean = result["input_text"].replace("\n", " ").strip()
     response_text_clean = result["response_text"].replace("\n", " ").strip()
+    matched_symptom = (result.get("matched_symptom") or "").replace("\n", " ").strip()
+    matched_phrase = (result.get("matched_phrase") or "").replace("\n", " ").strip()
 
-    # URL-encode text to safely send Yoruba characters in HTTP headers
+    # URL-encode text to safely send Pidgin characters in HTTP headers
     return StreamingResponse(
         BytesIO(result["audio"]),
         media_type="audio/wav",
         headers={
             "X-Input-Text": quote(input_text_clean),
-            "X-Response-Text": quote(response_text_clean)
+            "X-Response-Text": quote(response_text_clean),
+            "X-Matched-Symptom": quote(matched_symptom),
+            "X-Matched-Phrase": quote(matched_phrase)
         }
     )
 
