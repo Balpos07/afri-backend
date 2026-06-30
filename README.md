@@ -1,6 +1,6 @@
-# AfriHealth - Naija Medical Voice Assistant
+# Afrika Tori - Naija Medical Voice Assistant in Pidgin
 
-A multilingual medical voice assistant powered by AI that provides health recommendations in **Yoruba** language. Users can speak their symptoms, and the system transcribes, analyzes, and responds with medical guidance using text-to-speech.
+A multilingual medical voice assistant powered by AI that provides health recommendations in **Pidgin** language. Users can speak their symptoms, and the system transcribes, analyzes, and responds with medical guidance using text-to-speech.
 
 ---
 
@@ -19,14 +19,14 @@ A multilingual medical voice assistant powered by AI that provides health recomm
 
 ## 🎯 Project Overview
 
-**AfriHealth** is a FastAPI-based medical voice assistant designed to provide healthcare recommendations in Yoruba (Nigerian language). The system bridges the gap between modern AI technology and African language speakers by offering a completely voice-based medical consultation interface.
+**AfriHealth** is a FastAPI-based medical voice assistant designed to provide healthcare recommendations in Pidgin (Nigerian language). The system bridges the gap between modern AI technology and African language speakers by offering a completely voice-based medical consultation interface.
 
 ### Key Features:
 - 🗣️ **Voice Input Processing**: Accepts audio files for transcription
 - 🔄 **Real-time Processing**: Three-stage pipeline with performance tracking
-- 🌍 **Multilingual Support**: Yoruba language focus with symptom matching
+- 🌍 **Multilingual Support**: Pidgin language focus with symptom matching
 - 🏥 **Knowledge-Based Recommendations**: Symptom-to-recommendation matching
-- 🎙️ **Voice Output**: Text-to-speech responses in Yoruba
+- 🎙️ **Voice Output**: Text-to-speech responses in Pidgin
 - 📊 **Performance Monitoring**: Detailed timing for each stage
 
 ---
@@ -41,7 +41,7 @@ A multilingual medical voice assistant powered by AI that provides health recomm
                      ▼
         ┌────────────────────────────┐
         │  STAGE 1: TRANSCRIPTION    │
-        │  (Yoruba ASR Model)        │
+        │  (Pidgin ASR Model)        │
         │  - Load audio (librosa)    │
         │  - Convert to 16kHz        │
         │  - ASR inference           │
@@ -49,8 +49,8 @@ A multilingual medical voice assistant powered by AI that provides health recomm
                      │
                      ▼
         ┌────────────────────────────┐
-        │    INPUT TEXT (Yoruba)     │
-        │  "Ara ń yun mi" (itching)  │
+        │    INPUT TEXT (Pidgin)     │
+        │  "Body dey itch me"        │
         └────────────┬───────────────┘
                      │
                      ▼
@@ -64,7 +64,7 @@ A multilingual medical voice assistant powered by AI that provides health recomm
                      │
                      ▼
         ┌────────────────────────────────┐
-        │  RECOMMENDATION TEXT (Yoruba)  │
+        │  RECOMMENDATION TEXT (Pidgin)  │
         │  From knowledge_base.json      │
         └────────────┬────────────────────┘
                      │
@@ -88,21 +88,21 @@ A multilingual medical voice assistant powered by AI that provides health recomm
 **STAGE 1: Automatic Speech Recognition (ASR)**
 - Input: Audio bytes (various formats)
 - Process: Audio preprocessing (16kHz mono), transformer inference
-- Output: Transcribed text in Yoruba
+- Output: Transcribed text in Pidgin
 - Time: ~1-3 seconds
 
 **STAGE 2: Knowledge Matching**
-- Input: Transcribed text (Yoruba)
-- Process: 
+- Input: Transcribed text (Pidgin)
+- Process:
   1. Text cleanup (remove punctuation)
   2. Symptom lookup from `knowledge_base.json`
   3. Exact matching first (fast path)
   4. Fuzzy substring matching with SequenceMatcher (similarity threshold ≥60%)
-- Output: Medical recommendation in Yoruba or fallback message
+- Output: Medical recommendation in Pidgin or fallback message
 - Time: ~0.1-0.5 seconds
 
 **STAGE 3: Text-to-Speech (TTS)**
-- Input: Recommendation text (Yoruba)
+- Input: Recommendation text (Pidgin)
 - Process: External API call to YarnGPT with speaker "Idera"
 - Output: WAV audio file (24kHz)
 - Time: ~2-5 seconds
@@ -129,7 +129,7 @@ A multilingual medical voice assistant powered by AI that provides health recomm
 │  ┌──────────────────────────────────────────────┐        │
 │  │   MedicalVoicePipeline (Singleton)          │        │
 │  ├──────────────────────────────────────────────┤        │
-│  │  • ASR Model (NCAIR1/Yoruba-ASR)            │        │
+│  │  • ASR Model (Pidgin ASR)                    │        │
 │  │  • Knowledge Base (JSON)                     │        │
 │  │  • Device Management (CUDA/CPU)             │        │
 │  └──────────────────────────────────────────────┘        │
@@ -188,10 +188,10 @@ A multilingual medical voice assistant powered by AI that provides health recomm
 ### ML Models
 
 #### 1. Automatic Speech Recognition (ASR)
-- **Model**: `NCAIR1/Yoruba-ASR`
+- **Model**: Pidgin ASR model *(update with your model name/source)*
 - **Framework**: Hugging Face Transformers (Wav2Vec2-based)
 - **Source**: Hugging Face Hub
-- **Language**: Yoruba
+- **Language**: Nigerian Pidgin
 - **Input**: Audio (16kHz mono)
 - **Output**: Transcribed text
 - **Device**: GPU (CUDA) or CPU (with fallback)
@@ -199,7 +199,7 @@ A multilingual medical voice assistant powered by AI that provides health recomm
 
 #### 2. Text-to-Speech (TTS)
 - **Service**: YarnGPT API
-- **Voice**: "Idera" (Yoruba speaker)
+- **Voice**: "Idera" (Pidgin-compatible speaker)
 - **Endpoint**: `https://yarngpt.ai/api/v1/tts`
 - **Output Format**: WAV @ 24kHz
 - **Authentication**: Bearer token (API key)
@@ -209,16 +209,16 @@ A multilingual medical voice assistant powered by AI that provides health recomm
 - **Format**: JSON array
 - **Entries**: Medical symptoms with:
   - English symptom name
-  - Yoruba variations (list)
-  - Medical recommendations (Yoruba text)
+  - Pidgin variations (list)
+  - Medical recommendations (Pidgin text)
 - **Size**: 5+ symptom categories documented
 
 **Example Entry**:
 ```json
 {
   "symptom": "itching",
-  "yoruba": ["Ara yíyun", "Ara ń yun mi", "Ara ń yan mi"],
-  "recommendation": "Láti tọ́jú ara yíyun, lo búlúù (powder)..."
+  "pidgin": ["Body dey itch me", "I dey scratch body", "My body dey yarn me"],
+  "recommendation": "To treat body itch, use powder..."
 }
 ```
 
@@ -253,7 +253,7 @@ A multilingual medical voice assistant powered by AI that provides health recomm
 4. **Download Models** (First Time)
    ```bash
    # Models will auto-download on first run, or pre-download:
-   python -c "from transformers import pipeline; pipeline('automatic-speech-recognition', model='NCAIR1/Yoruba-ASR')"
+   python -c "from transformers import pipeline; pipeline('automatic-speech-recognition', model='YOUR_PIDGIN_ASR_MODEL')"
    ```
 
 5. **Set API Key**
@@ -304,8 +304,8 @@ curl -X POST "http://localhost:8000/voice" \
 
 **Response Headers:**
 ```
-X-Input-Text: Ara%20n%20yan%20mi
-X-Response-Text: L%C3%A1ti%20t%E1%BB%8D%CC%81j%C3%BA%20ara...
+X-Input-Text: Body%20dey%20itch%20me
+X-Response-Text: To%20treat%20body%20itch%2C%20use...
 Content-Type: audio/wav
 ```
 
@@ -332,7 +332,7 @@ GET /status
 ```json
 {
   "status": "running",
-  "device": "cuda"  // or "cpu"
+  "device": "cuda"
 }
 ```
 
@@ -414,8 +414,8 @@ AfriHealth/
 - JSON array of symptom entries
 - Each entry contains:
   - `symptom`: English identifier
-  - `yoruba`: Array of Yoruba variations
-  - `recommendation`: Medical advice in Yoruba
+  - `pidgin`: Array of Pidgin variations
+  - `recommendation`: Medical advice in Pidgin
 - Currently indexed with 5+ symptoms
 
 #### `Requirements.txt`
@@ -467,8 +467,8 @@ Add entries to `knowledge_base.json`:
 ```json
 {
   "symptom": "cough",
-  "yoruba": ["Sisan", "Ohun iku", "Sisan tutu"],
-  "recommendation": "Remedies in Yoruba..."
+  "pidgin": ["I dey cough", "Cough dey worry me", "My chest dey cough"],
+  "recommendation": "Remedies in Pidgin..."
 }
 ```
 
@@ -520,7 +520,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0"]
 
 ## 📄 License & Attribution
 
-- **Yoruba ASR Model**: NCAIR1 (Hugging Face)
+- **Pidgin ASR Model**: *(update with your model's attribution)*
 - **TTS Service**: YarnGPT API
 - **Framework**: FastAPI, PyTorch
 
@@ -529,7 +529,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0"]
 ## 📞 Support & Contribution
 
 For issues or improvements, please document:
-1. **Input**: What Yoruba text did you say?
+1. **Input**: What Pidgin text did you say?
 2. **Expected**: What recommendation should it give?
 3. **Actual**: What did it actually return?
 4. **Similarity**: What was the matching score?
@@ -541,7 +541,7 @@ For issues or improvements, please document:
 This project demonstrates:
 - ✅ **Multi-stage ML pipelines** with performance monitoring
 - ✅ **Async FastAPI** patterns for AI services
-- ✅ **Language-specific NLP** (Yoruba ASR)
+- ✅ **Language-specific NLP** (Pidgin ASR)
 - ✅ **Fuzzy matching algorithms** for fault-tolerant systems
 - ✅ **Singleton pattern** for resource management
 - ✅ **Production-ready** error handling and timing
