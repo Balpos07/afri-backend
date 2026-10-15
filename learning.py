@@ -8,7 +8,7 @@ from sqlalchemy import select
 
 from db import Candidate, KBAudit, KBEntry, SessionLocal, UserInput, utcnow
 
-KB_JSON = Path(__file__).parent / "knowledge_base.json"
+KB_JSON = Path(__file__).parent / "knowledge_base_pidgin.json"
 
 # Fuzzy matches below this are queued for review even though they got an answer
 BORDERLINE_SCORE = 0.75
