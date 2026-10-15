@@ -45,9 +45,35 @@ def entry_snapshot(entry: KBEntry) -> dict:
 
 # ── Knowledge base loading ──
 
+REQUIRED_KEYS = {"symptom", "pidgin", "recommendation"}
+
+
 def _load_json_kb() -> list:
+    """Read the seed file, skipping (and reporting) entries that lack the required keys."""
     with open(KB_JSON, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+
+    if not isinstance(data, list):
+        keys = sorted(data.keys())[:8] if isinstance(data, dict) else ""
+        raise ValueError(f"{KB_JSON.name} must be a JSON list of entries, found {type(data).__name__} {keys}")
+
+    good, bad = [], []
+    for index, item in enumerate(data):
+        if isinstance(item, dict) and REQUIRED_KEYS <= item.keys():
+            good.append(item)
+        else:
+            bad.append((index, sorted(item.keys()) if isinstance(item, dict) else type(item).__name__))
+
+    if bad:
+        index, keys = bad[0]
+        print(
+            f"WARNING: {KB_JSON.name}: skipped {len(bad)} of {len(data)} entries missing "
+            f"{sorted(REQUIRED_KEYS)}. First bad entry is #{index}, which has: {keys}",
+            flush=True,
+        )
+    if not good:
+        raise ValueError(f"{KB_JSON.name} has no usable entries (needs keys {sorted(REQUIRED_KEYS)})")
+    return good
 
 
 def seed_kb():

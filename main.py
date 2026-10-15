@@ -8,6 +8,7 @@ from io import BytesIO
 from urllib.parse import quote
 import os
 
+import config
 import learning
 from admin_routes import router as admin_router
 from db import init_db
@@ -43,15 +44,62 @@ def reload_pipeline_kb():
 
 learning.kb_changed_hook = reload_pipeline_kb
 
+# Bump this when deploying so the startup log shows which build is running
+APP_VERSION = "learning-v1"
+
+def log_startup_report(db_ok, db_error=None):
+    """Print one block to the container log: build, routes, database and config."""
+    lines = ["", "=" * 60, f"AFRI BACKEND STARTED  (build: {APP_VERSION})", "=" * 60]
+
+    lines.append("Endpoints loaded:")
+    routes = sorted(
+        (route.path, ",".join(sorted(m for m in route.methods if m not in ("HEAD", "OPTIONS"))))
+        for route in app.routes
+        if getattr(route, "methods", None) and route.path not in ("/openapi.json", "/docs", "/docs/oauth2-redirect", "/redoc")
+    )
+    for path, methods in routes:
+        lines.append(f"  {methods:<8} {path}")
+    admin_count = sum(1 for path, _ in routes if path.startswith("/admin"))
+    lines.append(f"  -> {len(routes)} endpoints ({admin_count} admin)")
+    lines.append(f"  /admin routes: {'LOADED' if admin_count else 'MISSING'}   /feedback: "
+                 f"{'LOADED' if any(p == '/feedback' for p, _ in routes) else 'MISSING'}")
+
+    lines.append("Database:")
+    if db_ok:
+        try:
+            from sqlalchemy import func, select
+            from db import Admin, Candidate, KBEntry, SessionLocal, engine
+            with SessionLocal() as s:
+                lines.append(f"  connected to {engine.url.render_as_string(hide_password=True)}")
+                lines.append(f"  admins: {s.scalar(select(func.count()).select_from(Admin))}, "
+                             f"KB entries: {s.scalar(select(func.count()).select_from(KBEntry))}, "
+                             f"pending candidates: "
+                             f"{s.scalar(select(func.count()).select_from(Candidate).where(Candidate.status == 'pending'))}")
+        except Exception as e:
+            lines.append(f"  connected, but could not read tables: {e}")
+    else:
+        lines.append(f"  NOT AVAILABLE: {db_error}")
+
+    # Names only: values are never printed
+    lines.append("Configuration:")
+    for name in ("DATABASE_URL", "JWT_SECRET", "YARNGPT_API_KEY", "ALLOWED_ORIGINS"):
+        source = "environment" if os.getenv(name) else "config.py default"
+        lines.append(f"  {name}: {'set (' + source + ')' if config.get(name) else 'NOT SET'}")
+    lines.append("=" * 60)
+    print("\n".join(lines), flush=True)
+
 @app.on_event("startup")
 def setup_database():
+    db_ok, db_error = True, None
     try:
         init_db()
         seeded = learning.seed_kb()
         if seeded:
-            print(f"Seeded knowledge base with {seeded} entries from knowledge_base.json")
+            print(f"Seeded knowledge base with {seeded} entries from {learning.KB_JSON.name}", flush=True)
     except Exception as e:
-        print(f"WARNING: database unavailable ({e}). Learning and admin features are disabled.")
+        db_ok, db_error = False, e
+        print(f"WARNING: database unavailable ({e}). Learning and admin features are disabled.", flush=True)
+    log_startup_report(db_ok, db_error)
 
 app.include_router(admin_router)
 

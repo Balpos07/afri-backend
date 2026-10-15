@@ -11,12 +11,13 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+import config
 from db import Admin, get_session
 
-_env_secret = os.getenv("JWT_SECRET")
-if not _env_secret:
+_configured_secret = config.get("JWT_SECRET")
+if not _configured_secret:
     print("WARNING: JWT_SECRET is not set; using a random one. Admin sessions end on every restart.")
-JWT_SECRET = _env_secret or secrets.token_urlsafe(48)
+JWT_SECRET = _configured_secret or secrets.token_urlsafe(48)
 JWT_ALGORITHM = "HS256"
 TOKEN_MINUTES = int(os.getenv("ADMIN_TOKEN_MINUTES", "60"))
 

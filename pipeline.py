@@ -6,6 +6,7 @@ from transformers import pipeline
 import librosa
 from io import BytesIO
 
+import config
 import learning
 
 class MedicalVoicePipeline:
@@ -13,7 +14,7 @@ class MedicalVoicePipeline:
         init_start = time.time()
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.api_key = os.getenv("YARNGPT_API_KEY", "")
+        self.api_key = config.get("YARNGPT_API_KEY")
         if not self.api_key:
             print("WARNING: YARNGPT_API_KEY is not set; text-to-speech will fail.")
         self.tts_url = "https://yarngpt.ai/api/v1/tts"

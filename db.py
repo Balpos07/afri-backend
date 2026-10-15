@@ -1,5 +1,6 @@
-import os
 from datetime import datetime, timezone
+
+import config
 
 from sqlalchemy import (
     JSON,
@@ -13,7 +14,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, sessionmaker
 
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///dev.db")
+DATABASE_URL = config.get("DATABASE_URL") or "sqlite:///dev.db"
 
 # Providers hand out "postgres://" or "postgresql://"; pin the psycopg2 driver
 for prefix in ("postgres://", "postgresql://"):
