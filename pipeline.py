@@ -6,12 +6,16 @@ from transformers import pipeline
 import librosa
 from io import BytesIO
 
+import learning
+
 class MedicalVoicePipeline:
     def __init__(self):
         init_start = time.time()
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.api_key = "sk_live_nn1Pot6DEv8CxsxMJ95htsyUn9QTke22cnJExpd1BYI"
+        self.api_key = os.getenv("YARNGPT_API_KEY", "")
+        if not self.api_key:
+            print("WARNING: YARNGPT_API_KEY is not set; text-to-speech will fail.")
         self.tts_url = "https://yarngpt.ai/api/v1/tts"
 
         print(f"Using device: {self.device}")
@@ -58,16 +62,18 @@ class MedicalVoicePipeline:
         # =========================
         kb_start = time.time()
 
-        import json
-
-        with open("knowledge_base_pidgin.json", "r", encoding="utf-8") as f:
-            self.knowledge_base = json.load(f)
+        self.reload_kb()
 
         print(f"Professional Knowledge Base loaded with {len(self.knowledge_base)} symptoms!")
 
         print(f"STAGE 2 KNOWLEDGE BASE LOAD TIME: {time.time() - kb_start:.2f}s")
 
         print(f"TOTAL INITIALIZATION TIME: {time.time() - init_start:.2f}s\n")
+
+    def reload_kb(self):
+        """Rebuild the knowledge base from the database (approved entries only).
+        The list is swapped in one assignment, so in-flight requests are unaffected."""
+        self.knowledge_base = learning.load_kb()
 
     def transcribe(self, audio_bytes):
         stage_start = time.time()
@@ -128,8 +134,9 @@ class MedicalVoicePipeline:
 
         return max_score
 
-    def generate_response(self, user_text: str):
+    def generate_response(self, user_text: str, source: str = "chat"):
         stage_start = time.time()
+        original_text = user_text
 
         print(f"DEBUG: Professional Knowledge Lookup for: {user_text}")
 
@@ -170,6 +177,7 @@ class MedicalVoicePipeline:
                     print(f"TOTAL RESPONSE GENERATION TIME: {time.time() - stage_start:.2f}s")
 
                     matched_phrase = p_key if p_key in user_text else symptom_key
+                    learning.record(original_text, source, "exact", 1.0, item["symptom"], matched_phrase)
                     return item["recommendation"], item["symptom"], matched_phrase
 
             # Fuzzy Match
@@ -194,6 +202,7 @@ class MedicalVoicePipeline:
 
             print(f"TOTAL RESPONSE GENERATION TIME: {time.time() - stage_start:.2f}s")
 
+            learning.record(original_text, source, "fuzzy", highest_score, best_match_symptom, best_match_key)
             return best_match_response, best_match_symptom, best_match_key
 
         print(
@@ -204,6 +213,7 @@ class MedicalVoicePipeline:
 
         print(f"TOTAL RESPONSE GENERATION TIME: {time.time() - stage_start:.2f}s")
 
+        learning.record(original_text, source, "miss", highest_score, best_match_symptom, best_match_key)
         return "Oga sorry oo, I no too understand wetin you talk. Abeg, try talk am again well-well make I know how your body dey do you.", None, None
 
     def text_to_speech(self, text: str):
@@ -271,7 +281,7 @@ class MedicalVoicePipeline:
         # =========================
         stage2_start = time.time()
 
-        response_text, matched_symptom, matched_phrase = self.generate_response(text)
+        response_text, matched_symptom, matched_phrase = self.generate_response(text, source="voice")
 
         stage2_time = time.time() - stage2_start
 
@@ -311,6 +321,64 @@ class MedicalVoicePipeline:
 
         return {
             "input_text": text,
+            "response_text": response_text,
+            "matched_symptom": matched_symptom,
+            "matched_phrase": matched_phrase,
+            "audio": audio_output,
+            "sample_rate": sr
+        }
+
+    def process_chat(self, user_text: str):
+        overall_start = time.time()
+
+        print("\n" + "=" * 60)
+        print("STARTING MEDICAL CHAT PIPELINE")
+        print("=" * 60)
+
+        # =========================
+        # STAGE 2: KNOWLEDGE LOOKUP
+        # =========================
+        stage2_start = time.time()
+
+        response_text, matched_symptom, matched_phrase = self.generate_response(user_text)
+
+        stage2_time = time.time() - stage2_start
+
+        print("\n" + "=" * 50)
+        print(f"STAGE 2 (KNOWLEDGE MATCH): '{response_text}'")
+        print(f"STAGE 2 TIME: {stage2_time:.2f}s")
+        print("=" * 50)
+
+        # =========================
+        # STAGE 3: TEXT TO SPEECH
+        # =========================
+        stage3_start = time.time()
+
+        audio_output, sr = self.text_to_speech(response_text)
+
+        stage3_time = time.time() - stage3_start
+
+        print("\n" + "=" * 50)
+        print("STAGE 3 (TEXT TO SPEECH COMPLETED)")
+        print(f"STAGE 3 TIME: {stage3_time:.2f}s")
+        print("=" * 50)
+
+        # =========================
+        # TOTAL TIMING
+        # =========================
+        total_time = time.time() - overall_start
+
+        print("\n" + "=" * 60)
+        print("CHAT PIPELINE PERFORMANCE SUMMARY")
+        print("=" * 60)
+        print(f"Stage 2 - Knowledge Lookup : {stage2_time:.2f}s")
+        print(f"Stage 3 - TTS Generation   : {stage3_time:.2f}s")
+        print("-" * 60)
+        print(f"TOTAL PROCESSING TIME      : {total_time:.2f}s")
+        print("=" * 60 + "\n")
+
+        return {
+            "input_text": user_text,
             "response_text": response_text,
             "matched_symptom": matched_symptom,
             "matched_phrase": matched_phrase,

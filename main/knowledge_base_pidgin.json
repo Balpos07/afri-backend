@@ -1,0 +1,1351 @@
+[
+  {
+    "symptom": "itching",
+    "pidgin": [
+      "body dey scratch me",
+      "body dey scratch",
+      "body dey itch",
+      "scratchy body",
+      "my skin dey scratch me",
+      "ara dey scratch"
+    ],
+    "recommendation": "To treat body scratch, use powder or cream wey no get strong chemical, bath with gentle soap and cool water. Drink plenty water every day and wear light cotton clothes. But go see doctor immediately if the scratch dey do pass three days."
+  },
+  {
+    "symptom": "skin_rash",
+    "pidgin": [
+      "skin rash",
+      "body rash",
+      "bump bump for body",
+      "rashes for skin",
+      "body scratch with rash"
+    ],
+    "recommendation": "Keep your body clean every day with clean water and mild soap, no use bleach. No share cloth or towel with another person, and use the cream wey doctor prescribe for you. But go hospital if the rash dey spread or e dey red well-well."
+  },
+  {
+    "symptom": "nodal_skin_eruptions",
+    "pidgin": [
+      "small boil for body",
+      "boil on skin",
+      "bump for body with pain",
+      "small sore for skin",
+      "nodal eruption"
+    ],
+    "recommendation": "Clean your skin well with clean water. No scratch or squeeze the boil make infection no enter. No use native medicine wey fit make the sore worse. Use the ointment wey doctor tell you to use, and go hospital quick-quick for checkup."
+  },
+  {
+    "symptom": "continuous_sneezing",
+    "pidgin": [
+      "sneezing every time",
+      "constant sneezing",
+      "de sneez leralera",
+      "continuous sneezing",
+      "nose dey sneeze"
+    ],
+    "recommendation": "To stop constant sneezing, run from dust, smoke, and flowers. Tie face towel or wear nose mask, wash hand always, and drink warm water make your throat soft. You fit use anti-histamine medicine if doctor tell you to do so."
+  },
+  {
+    "symptom": "shivering",
+    "pidgin": [
+      "body dey shake",
+      "shivering",
+      "shivering because of cold",
+      "body dey vibrate",
+      "body dey cold and shake"
+    ],
+    "recommendation": "To warm your body and stop the shake, cover body well-well with thick cloth or blanket. Drink warm water or tea to get heat from inside, rest well, and measure your temperature. But run go hospital quick if the shake continue because e fit be malaria sign."
+  },
+  {
+    "symptom": "chills",
+    "pidgin": [
+      "cold dey catch me",
+      "feeling cold",
+      "cold inside bone",
+      "cold de catch",
+      "body dey cold"
+    ],
+    "recommendation": "Wear thick clothes and cover body well to sleep. Drink warm water or fruit juice wey get Vitamin C, and no bath cold water at all. Go see doctor if your body still dey hot join with the cold."
+  },
+  {
+    "symptom": "joint_pain",
+    "pidgin": [
+      "joint pain",
+      "leg joint dey pain me",
+      "bone dey pain",
+      "knees dey hurt",
+      "pain for joint"
+    ],
+    "recommendation": "Rest that joint wey dey pain you and no carry heavy load. Rub balm or take painkiller like Paracetamol, and do small exercise. Go hospital if the joint start to swell or red."
+  },
+  {
+    "symptom": "stomach_pain",
+    "pidgin": [
+      "stomach ache",
+      "belly dey pain me",
+      "belle run",
+      "belly bite",
+      "stomach pain",
+      "pain for belly"
+    ],
+    "recommendation": "Lie down make you rest and drink warm water. No eat heavy food or food wey get too much pepper. Place warm water inside bottle on top your belle. Go see doctor quick-quick if you dey sheet blood."
+  },
+  {
+    "symptom": "Acidity / Heartburn",
+    "pidgin": [
+      "heartburn",
+      "chest dey burn",
+      "sour throat",
+      "acid reflux",
+      "acidity",
+      "belly dey burn"
+    ],
+    "recommendation": "Drink plenty water every time and use antacid medicine as doctor take order. Avoid fried food, plenty pepper, coffee, and strong drinks to reduce the burn."
+  },
+  {
+    "symptom": "ulcers_on_tongue",
+    "pidgin": [
+      "sore for tongue",
+      "mouth sore",
+      "tongue dey hurt",
+      "mouth injury",
+      "injury for tongue",
+      "mouth ulcer"
+    ],
+    "recommendation": "Rinse mouth with warm salt water and apply pure honey on top the sore. Drink plenty cold water, take Vitamin B complex, and avoid hot or pepperish food."
+  },
+  {
+    "symptom": "muscle_wasting",
+    "pidgin": [
+      "muscle dey shrink",
+      "body dey dry",
+      "weight dey reduce",
+      "flesh dey lose",
+      "muscle wasting"
+    ],
+    "recommendation": "Eat food wey get plenty protein, take multivitamin, and do light exercise. Make you go hospital for blood test to know why your muscle dey dry."
+  },
+  {
+    "symptom": "vomiting",
+    "pidgin": [
+      "vomit",
+      "dey throw up",
+      "stomach dey turn me",
+      "spit out food",
+      "throw up",
+      "vomiting"
+    ],
+    "recommendation": "Drink small-small water or ORS to replace water for body, no eat heavy food, and rest well. Go hospital if you vomit pass five times for one day."
+  },
+  {
+    "symptom": "burning_micturition",
+    "pidgin": [
+      "urine dey burn",
+      "pain when I dey pee",
+      "hot urine",
+      "pee dey burn me",
+      "burning micturition"
+    ],
+    "recommendation": "Drink plenty water (reach two liters) and cranberry juice to flush bacteria. No hold urine, and avoid alcohol or coffee. See doctor for urine test to get the right medicine."
+  },
+  {
+    "symptom": "spotting_urination",
+    "pidgin": [
+      "blood in urine",
+      "red pee",
+      "bleeding when I pee",
+      "blood inside urine",
+      "spotting urination"
+    ],
+    "recommendation": "Go hospital quick-quick for urine test and scan. Drink plenty water make the blood no clot, and follow doctor talk well."
+  },
+  {
+    "symptom": "fatigue",
+    "pidgin": [
+      "body dey weak",
+      "tiredness",
+      "no strength",
+      "fatigue",
+      "tired",
+      "body dey heavy"
+    ],
+    "recommendation": "Rest well, eat proper food, drink water, and do small exercise. Go see doctor for blood test to know if blood shortage (Anemia) dey worry you."
+  },
+  {
+    "symptom": "weight_gain",
+    "pidgin": [
+      "getting fat",
+      "weight gain",
+      "adding weight",
+      "body dey heavy",
+      "weight dey increase"
+    ],
+    "recommendation": "Do exercise every day, eat moderate food (no eat late night), and reduce sugar and fat. Go do thyroid test to find out the cause."
+  },
+  {
+    "symptom": "anxiety",
+    "pidgin": [
+      "heart dey beat fast",
+      "mind no settle",
+      "fear-fear",
+      "worry too much",
+      "anxiety"
+    ],
+    "recommendation": "Breathe inside deep-deep, do meditation, and talk about wetin dey worry you. Run from coffee or strong drink to cool your mind."
+  },
+  {
+    "symptom": "cold_hands_and_feets",
+    "pidgin": [
+      "cold hands",
+      "cold feet",
+      "cold hand and leg",
+      "hand and leg cold"
+    ],
+    "recommendation": "Wear thick gloves and socks, do exercise to make blood flow well, stop smoking, and go hospital check your heart and blood circulation."
+  },
+  {
+    "symptom": "mood_swings",
+    "pidgin": [
+      "mood change quick",
+      "happy and angry together",
+      "mind dey switch",
+      "mood swing"
+    ],
+    "recommendation": "Sleep well make your brain rest, do meditation, and talk with person wey you trust. Run from stress and eat good food wey get plenty fruits."
+  },
+  {
+    "symptom": "weight_loss",
+    "pidgin": [
+      "losing weight",
+      "getting thin",
+      "body dey reduce",
+      "weight drop",
+      "weight loss"
+    ],
+    "recommendation": "Eat protein-rich food, drink fruit juice, and reduce hard work. Go hospital make dem check you for diabetes, TB, or other sickness inside."
+  },
+  {
+    "symptom": "restlessness",
+    "pidgin": [
+      "body no settle",
+      "cannot sit down",
+      "restless",
+      "mind dey run",
+      "restlessness"
+    ],
+    "recommendation": "Drink herbal tea wey no get caffeine, meditate, or listen to soft music. No use phone when you wan sleep, and talk to doctor if anxiety dey cause am."
+  },
+  {
+    "symptom": "lethargy",
+    "pidgin": [
+      "lazy body",
+      "no energy at all",
+      "dull body",
+      "lethargy",
+      "weakness"
+    ],
+    "recommendation": "Rest well, drink plenty water, and eat food wey get iron (like liver and vegetable). Go hospital check if your blood short (Anemia)."
+  },
+  {
+    "symptom": "patches_in_throat",
+    "pidgin": [
+      "white spot for throat",
+      "throat sore with white patch",
+      "throat dey pain",
+      "patches in throat"
+    ],
+    "recommendation": "Go hospital quick-quick for throat swab test, use antibiotic as doctor prescribe, rinse throat with warm salt water, and avoid hard or pepperish food."
+  },
+  {
+    "symptom": "irregular_sugar_level",
+    "pidgin": [
+      "sugar level dey go up and down",
+      "sugar no settle",
+      "unstable blood sugar",
+      "irregular sugar level"
+    ],
+    "recommendation": "Eat food wey get fiber, do light exercise, run from too much sugar, and check your sugar level normal-normal as doctor talk."
+  },
+  {
+    "symptom": "cough",
+    "pidgin": [
+      "cough",
+      "dry cough",
+      "coughing blood",
+      "strong cough",
+      "coughing",
+      "chest cough"
+    ],
+    "recommendation": "Drink warm water with honey and lemon, take cough medicine as doctor prescribe, inhale steam from hot water. Go hospital if the cough pass two weeks to check for TB."
+  },
+  {
+    "symptom": "high_fever",
+    "pidgin": [
+      "high fever",
+      "body dey hot well-well",
+      "hot body",
+      "bone dey hot",
+      "fever"
+    ],
+    "recommendation": "Take Paracetamol and use wet cloth wipe body to reduce the heat, wear light clothes. Go hospital quick-quick for malaria or typhoid test."
+  },
+  {
+    "symptom": "sunken_eyes",
+    "pidgin": [
+      "sunken eyes",
+      "eyes go inside",
+      "tired eyes",
+      "dry eyes",
+      "eyes sink"
+    ],
+    "recommendation": "Drink ORS and plenty water quick, eat watery fruit to get water back inside body. Go hospital immediately if the eyes sink go inside well-well."
+  },
+  {
+    "symptom": "breathlessness",
+    "pidgin": [
+      "breathless",
+      "hard to breathe",
+      "shortness of breath",
+      "gasping",
+      "breathlessness"
+    ],
+    "recommendation": "Sit down well, breathe deep and slow, and don't talk too much. Avoid smoke or dust. Go hospital immediately because e fit be heart or lung issue."
+  },
+  {
+    "symptom": "sweating",
+    "pidgin": [
+      "sweating too much",
+      "heavy sweat",
+      "body wet with sweat",
+      "sweat",
+      "heavy sweating"
+    ],
+    "recommendation": "Drink plenty water, wear light cotton clothes for air to enter, avoid pepperish food, and bath with cool water make body calm."
+  },
+  {
+    "symptom": "dehydration",
+    "pidgin": [
+      "dehydration",
+      "dry body",
+      "short of water",
+      "mouth dry",
+      "no water for body"
+    ],
+    "recommendation": "Drink ORS and coconut water small-small, rest well and avoid hard work. Go hospital make dem give you drip if body weak well-well."
+  },
+  {
+    "symptom": "indigestion",
+    "pidgin": [
+      "indigestion",
+      "food no digest",
+      "stomach heavy after food",
+      "bloated",
+      "heavy stomach"
+    ],
+    "recommendation": "Eat small-small food, drink ginger tea and water make stomach relax, walk small after food. No eat food with too much oil or pepper."
+  },
+  {
+    "symptom": "headache",
+    "pidgin": [
+      "headache",
+      "head dey pain me",
+      "head dey bang",
+      "severe headache",
+      "head pain"
+    ],
+    "recommendation": "Rest for quiet place wey dark small, drink plenty water, take Paracetamol, and place cool cloth on top your forehead. Run from noise."
+  },
+  {
+    "symptom": "yellowish_skin",
+    "pidgin": [
+      "skin dey turn yellow",
+      "yellow body",
+      "jaundice skin",
+      "yellow skin"
+    ],
+    "recommendation": "Go hospital immediately for Hepatitis and liver test, drink clean water, and avoid strong alcohol or native medicine wey fit spoil liver."
+  },
+  {
+    "symptom": "dark_urine",
+    "pidgin": [
+      "dark urine",
+      "brown pee",
+      "reddish urine",
+      "coffee color pee",
+      "black urine"
+    ],
+    "recommendation": "Drink plenty water quick, stop hard work under hot sun, and go hospital for urine and liver check to know why the color change."
+  },
+  {
+    "symptom": "nausea",
+    "pidgin": [
+      "feel like to vomit",
+      "nausea",
+      "stomach dey turn me",
+      "feeling to throw up",
+      "nausea feeling"
+    ],
+    "recommendation": "Rest well, drink ginger tea or water small-small, avoid heavy or smelly food, and use anti-vomit drug if doctor prescribe am."
+  },
+  {
+    "symptom": "loss_of_appetite",
+    "pidgin": [
+      "no want to eat",
+      "loss of appetite",
+      "mouth bitter",
+      "food no dey sweet me",
+      "appetite loss"
+    ],
+    "recommendation": "Eat your favorite food small-small, drink fruit juice to wake mouth, and go hospital check for malaria or other sickness."
+  },
+  {
+    "symptom": "pain_behind_the_eyes",
+    "pidgin": [
+      "pain behind eyes",
+      "eyes dey hurt inside",
+      "back of eye dey pain",
+      "pain behind the eyes"
+    ],
+    "recommendation": "Rest your eyes, avoid phone or bright light, take Paracetamol, and see eye doctor to check for glaucoma or eye problem."
+  },
+  {
+    "symptom": "back_pain",
+    "pidgin": [
+      "back pain",
+      "back dey hurt",
+      "waist pain",
+      "spine dey pain",
+      "pain for back"
+    ],
+    "recommendation": "Rest on flat bed, use warm balm and light stretch, avoid lifting heavy thing, and see doctor if the pain dey go down your legs."
+  },
+  {
+    "symptom": "constipation",
+    "pidgin": [
+      "hard toilet",
+      "constipation",
+      "stomach block",
+      "cannot poo",
+      "hard stool"
+    ],
+    "recommendation": "Drink plenty water, eat fiber food like vegetable and fruit, do exercise, and use laxative medicine only if doctor prescribe am."
+  },
+  {
+    "symptom": "abdominal_pain",
+    "pidgin": [
+      "lower belle pain",
+      "stomach dey hurt",
+      "abdominal pain",
+      "belle pain",
+      "pain for belly"
+    ],
+    "recommendation": "Lie down to rest, drink warm water, apply warm compress on your stomach, avoid hard food, and go hospital if the pain too much."
+  },
+  {
+    "symptom": "diarrhoea",
+    "pidgin": [
+      "watery toilet",
+      "diarrhea",
+      "running stomach",
+      "stooling",
+      "watery stool"
+    ],
+    "recommendation": "Drink ORS and clean water, eat light food like pap, and go hospital if you go toilet pass five times or if blood dey inside."
+  },
+  {
+    "symptom": "mild_fever",
+    "pidgin": [
+      "mild fever",
+      "body dey hot small",
+      "small fever",
+      "feverish feeling",
+      "little fever"
+    ],
+    "recommendation": "Drink plenty water, rest well, take Paracetamol, and bath with cool water to bring down the body temperature."
+  },
+  {
+    "symptom": "yellow_urine",
+    "pidgin": [
+      "yellow urine",
+      "bright yellow pee",
+      "deep yellow urine",
+      "yellow pee"
+    ],
+    "recommendation": "Drink plenty water immediately and take fruit juice to boost body. Go see doctor if the color no change back to normal within two days."
+  },
+  {
+    "symptom": "yellowing_of_eyes",
+    "pidgin": [
+      "eyes dey turn yellow",
+      "yellow eye",
+      "white of eye turn yellow",
+      "yellow eyes turning"
+    ],
+    "recommendation": "Go hospital immediately for liver and Hepatitis test. Stop drinking strong alcohol or native herbs, and drink clean water to protect your liver."
+  },
+  {
+    "symptom": "acute_liver_failure",
+    "pidgin": [
+      "liver fail quick-quick",
+      "liver spoil suddenly",
+      "acute liver failure",
+      "liver failure"
+    ],
+    "recommendation": "Go hospital emergency room immediately! This one fit take life. No eat or take any medicine until doctor see you. Tell dem all drugs wey you use recently."
+  },
+  {
+    "symptom": "fluid_overload",
+    "pidgin": [
+      "too much water for body",
+      "body swell with water",
+      "fluid overload",
+      "plenty water inside body"
+    ],
+    "recommendation": "Go hospital quick to check heart and kidney. Reduce salt and water intake, raise your legs up if dem swell, and weigh yourself daily."
+  },
+  {
+    "symptom": "swelling_of_stomach",
+    "pidgin": [
+      "stomach swell",
+      "belle swell up",
+      "water in stomach",
+      "stomach swelling"
+    ],
+    "recommendation": "Reduce salt totally, avoid food wey dey cause gas, drink water small-small, and go hospital for scan to check your liver quick."
+  },
+  {
+    "symptom": "swelled_lymph_nodes",
+    "pidgin": [
+      "swollen neck glands",
+      "gland swell",
+      "lump for neck or underarm",
+      "lymph nodes swell",
+      "swelled lymph nodes"
+    ],
+    "recommendation": "Go hospital quick for checkup, rest well, eat energy food, drink water, and use warm cloth to soothe the pain. No squeeze the lump."
+  },
+  {
+    "symptom": "malaise",
+    "pidgin": [
+      "general body weakness",
+      "body no active",
+      "feeling sick all over",
+      "malaise",
+      "general weakness"
+    ],
+    "recommendation": "Rest well, no do hard work, drink water and fruit juice, eat good food, and see doctor if the feeling dey pass two days."
+  },
+  {
+    "symptom": "blurred_and_distorted_vision",
+    "pidgin": [
+      "blurred vision",
+      "cannot see clear",
+      "double vision",
+      "dim eye",
+      "blurred and distorted vision"
+    ],
+    "recommendation": "Rest your eyes, avoid phone or computer screen, and go see eye doctor for checkup quick-quick if the blur no go away."
+  },
+  {
+    "symptom": "phlegm",
+    "pidgin": [
+      "sputum",
+      "spit out mucus",
+      "cough with phlegm",
+      "catarrh for chest",
+      "phlegm",
+      "mucus for throat"
+    ],
+    "recommendation": "Drink warm water with pure honey, take cough medicine wey fit bring out the phlegm, and see doctor if it get thick or change color."
+  },
+  {
+    "symptom": "throat_irritation",
+    "pidgin": [
+      "throat scratch",
+      "throat pain",
+      "throat irritation",
+      "scratchy throat"
+    ],
+    "recommendation": "Drink warm water with lemon, gargle with warm salt water to kill bacteria, and see doctor if the pain make swallowing hard."
+  },
+  {
+    "symptom": "redness_of_eyes",
+    "pidgin": [
+      "red eyes",
+      "eyes dey red",
+      "bloodshot eye",
+      "redness of eyes"
+    ],
+    "recommendation": "Rest your eyes, use cool cloth to wipe them, avoid self-medicating eye drops, and go hospital if the redness no go down in two days."
+  },
+  {
+    "symptom": "sinus_pressure",
+    "pidgin": [
+      "sinus pressure",
+      "forehead pain",
+      "nose block with headache",
+      "pain in forehead"
+    ],
+    "recommendation": "Drink plenty water, inhale steam from hot water to clear nose, and see doctor if the headache too strong."
+  },
+  {
+    "symptom": "runny_nose",
+    "pidgin": [
+      "runny nose",
+      "nose water",
+      "catarrh",
+      "mucus from nose"
+    ],
+    "recommendation": "Rest well, use saline drops to clean your nose, drink water often, and go see doctor if the runny nose pass one week."
+  },
+  {
+    "symptom": "congestion",
+    "pidgin": [
+      "blocked nose",
+      "cannot breathe through nose",
+      "stuffy nose",
+      "nose block",
+      "congestion"
+    ],
+    "recommendation": "Use inhaler or inhale steam from hot water to open nose, drink plenty water, and go hospital if block nose dey affect your breathing."
+  },
+  {
+    "symptom": "chest_pain",
+    "pidgin": [
+      "chest pain",
+      "chest dey hurt",
+      "heavy chest",
+      "pain for chest"
+    ],
+    "recommendation": "Stop any hard work immediately, sit down rest, and go hospital emergency quick because chest pain fit be heart attack sign."
+  },
+  {
+    "symptom": "weakness_in_limbs",
+    "pidgin": [
+      "weak hand and leg",
+      "limb weakness",
+      "no power for arm and leg",
+      "weakness in limbs"
+    ],
+    "recommendation": "Eat food rich in potassium like banana and fruits to boost muscle, rest well, and see doctor if you no fit walk well."
+  },
+  {
+    "symptom": "fast_heart_rate",
+    "pidgin": [
+      "heart beating fast",
+      "racing heart",
+      "heart run fast",
+      "fast heart rate"
+    ],
+    "recommendation": "Sit down quietly, breathe deep and slow to calm your heart, avoid coffee or alcohol, and go hospital quick if it no stop."
+  },
+  {
+    "symptom": "pain_during_bowel_movements",
+    "pidgin": [
+      "pain when doing toilet",
+      "hard toilet pain",
+      "anus pain during stooling",
+      "pain during bowel movement"
+    ],
+    "recommendation": "Drink plenty water, eat fiber food to soften toilet, and go see doctor if the pain continue."
+  },
+  {
+    "symptom": "pain_in_anal_region",
+    "pidgin": [
+      "pain in anus",
+      "butt dey hurt",
+      "bottom pain",
+      "pain in anal region"
+    ],
+    "recommendation": "Bath with warm water (Sitz bath) to relieve pain, use correct ointment, and see doctor if you suspect pile (hemorrhoids)."
+  },
+  {
+    "symptom": "bloody_stool",
+    "pidgin": [
+      "blood in toilet",
+      "bleeding from anus",
+      "red poo",
+      "bloody stool"
+    ],
+    "recommendation": "Go hospital immediately because blood in toilet fit be sign of serious intestine or anus problem wey doctor need check."
+  },
+  {
+    "symptom": "irritation_in_anus",
+    "pidgin": [
+      "anus dey scratch",
+      "itchy anus",
+      "scratchy bottom",
+      "irritation in anus"
+    ],
+    "recommendation": "Keep your bottom clean and dry after toilet. See doctor to check for worm or infection if the scratch pass two days."
+  },
+  {
+    "symptom": "neck_pain",
+    "pidgin": [
+      "neck pain",
+      "neck dey hurt",
+      "stiff neck",
+      "neck paining me"
+    ],
+    "recommendation": "Rest your neck on flat pillow, use warm balm and take Paracetamol, and see doctor if the pain dey go down your arm."
+  },
+  {
+    "symptom": "dizziness",
+    "pidgin": [
+      "dizziness",
+      "eye dey turn me",
+      "feeling to fall down",
+      "giddy",
+      "dizzy"
+    ],
+    "recommendation": "Sit down or lie down immediately to avoid falling, drink water small-small, and go hospital if you start to vomit or faint."
+  },
+  {
+    "symptom": "cramps",
+    "pidgin": [
+      "muscle cramp",
+      "muscle pull",
+      "leg cramp",
+      "cramps"
+    ],
+    "recommendation": "Stretch the muscle gently, use warm balm to rub it, drink water wey get small salt, and see doctor if the cramp dey happen too often."
+  },
+  {
+    "symptom": "bruising",
+    "pidgin": [
+      "bruise",
+      "dark mark on skin after fall",
+      "blood under skin",
+      "bruising"
+    ],
+    "recommendation": "Put ice pack on top the bruise to reduce swelling, raise the place up. See doctor if the bruise appear on its own without injury."
+  },
+  {
+    "symptom": "obesity",
+    "pidgin": [
+      "too much fat",
+      "obese",
+      "heavy weight",
+      "obesity"
+    ],
+    "recommendation": "Reduce sugar and fatty foods, do exercise daily, and see doctor or dietitian for advice on how to lose weight safely."
+  },
+  {
+    "symptom": "swollen_legs",
+    "pidgin": [
+      "swollen leg",
+      "leg swell up",
+      "water in leg",
+      "swollen legs"
+    ],
+    "recommendation": "Raise your legs up when you sit, reduce salt in your food, and go hospital quick if the leg dey pain or turn red."
+  },
+  {
+    "symptom": "swollen_blood_vessels",
+    "pidgin": [
+      "swollen vein",
+      "varicose vein",
+      "vein dey show out",
+      "swollen blood vessel"
+    ],
+    "recommendation": "Raise your arm or leg up, use compression stockings to help blood flow, and see doctor to check for varicose veins."
+  },
+  {
+    "symptom": "puffy_face_and_eyes",
+    "pidgin": [
+      "swollen face",
+      "puffy eyes",
+      "face swell up",
+      "puffy face and eyes"
+    ],
+    "recommendation": "Reduce salt in food, drink plenty water to wash out sodium, and see doctor if the swelling happen every morning after sleep."
+  },
+  {
+    "symptom": "enlarged_thyroid",
+    "pidgin": [
+      "goitre",
+      "throat swell",
+      "enlarged thyroid",
+      "swollen thyroid"
+    ],
+    "recommendation": "Go hospital immediately for thyroid test to check if you lack iodine or get other issue for your throat."
+  },
+  {
+    "symptom": "brittle_nails",
+    "pidgin": [
+      "nails dey break",
+      "weak nail",
+      "brittle nails",
+      "nails breaking"
+    ],
+    "recommendation": "Eat food wey get biotin and protein to make nails strong. See doctor if the nails change color or keep breaking too much."
+  },
+  {
+    "symptom": "swollen_extremeties",
+    "pidgin": [
+      "swollen hand and feet",
+      "joint swell",
+      "water for hand and leg",
+      "swollen extremities"
+    ],
+    "recommendation": "Raise your hands and legs up, reduce salt intake, and go hospital check kidney or heart if swelling no go down."
+  },
+  {
+    "symptom": "excessive_hunger",
+    "pidgin": [
+      "too much hunger",
+      "always hungry",
+      "never full",
+      "excessive hunger"
+    ],
+    "recommendation": "Eat fiber-rich food to keep you full longer. Go hospital check your blood sugar for diabetes if you always dey hungry and thirsty."
+  },
+  {
+    "symptom": "extra_marital_contacts",
+    "pidgin": [
+      "sleeping around",
+      "multiple partners",
+      "unprotected sex",
+      "extra marital contact"
+    ],
+    "recommendation": "Always use condom to protect yourself, and go hospital for STI screening regular-regular if you get pass one partner."
+  },
+  {
+    "symptom": "drying_and_tingling_lips",
+    "pidgin": [
+      "dry lips",
+      "lips scratch me",
+      "peeling lips",
+      "drying and tingling lips"
+    ],
+    "recommendation": "Drink plenty water daily, use lip balm to keep lips soft, and see doctor if the lips start to bleed or crack too much."
+  },
+  {
+    "symptom": "slurred_speech",
+    "pidgin": [
+      "cannot talk clear",
+      "tongue heavy",
+      "stammer suddenly",
+      "slurred speech"
+    ],
+    "recommendation": "Go hospital immediately! This one fit be sign of stroke wey need emergency treatment."
+  },
+  {
+    "symptom": "knee_pain",
+    "pidgin": [
+      "knee pain",
+      "knee dey hurt",
+      "knee cap pain",
+      "pain in knee"
+    ],
+    "recommendation": "Rest your knee, use ice pack and warm balm to reduce pain, and see doctor if it swell or make walking hard."
+  },
+  {
+    "symptom": "hip_joint_pain",
+    "pidgin": [
+      "hip pain",
+      "waist joint dey hurt",
+      "hip dey pain",
+      "hip joint pain"
+    ],
+    "recommendation": "Reduce hard work, do gentle stretches to relax the joint, and see doctor if the pain dey travel down your leg."
+  },
+  {
+    "symptom": "muscle_weakness",
+    "pidgin": [
+      "weak muscle",
+      "no strength for muscle",
+      "limp muscle",
+      "muscle weakness"
+    ],
+    "recommendation": "Eat protein-rich food, rest well to rebuild muscle, and see doctor if you no fit lift light things."
+  },
+  {
+    "symptom": "stiff_neck",
+    "pidgin": [
+      "stiff neck",
+      "neck hard to turn",
+      "neck like wood",
+      "neck stiff"
+    ],
+    "recommendation": "Use warm balm gently to relax the neck and rest well. Go hospital emergency immediately if the stiff neck join with headache and fever."
+  },
+  {
+    "symptom": "swelling_joints",
+    "pidgin": [
+      "swollen joint",
+      "joint swell up",
+      "joint big",
+      "swelling joints"
+    ],
+    "recommendation": "Rest the affected arm or leg, use cool compress to bring down the swelling, and see doctor for arthritis or infection check."
+  },
+  {
+    "symptom": "movement_stiffness",
+    "pidgin": [
+      "stiff movement",
+      "hard to walk",
+      "body stiff",
+      "movement stiffness"
+    ],
+    "recommendation": "Do gentle stretches every morning to loosen up, and see doctor if the stiffness too much and you no fit move well."
+  },
+  {
+    "symptom": "spinning_movements",
+    "pidgin": [
+      "room dey spin",
+      "spinning head",
+      "giddiness",
+      "spinning movements"
+    ],
+    "recommendation": "Sit or lie down, close your eyes to make the spinning stop, and see doctor if you start to vomit or feel like to faint."
+  },
+  {
+    "symptom": "loss_of_balance",
+    "pidgin": [
+      "cannot stand straight",
+      "losing balance",
+      "legs shaking",
+      "loss of balance"
+    ],
+    "recommendation": "Stop wetin you dey do, sit down make you no fall, drink cool water, and see doctor to check your inner ear or brain."
+  },
+  {
+    "symptom": "unsteadiness",
+    "pidgin": [
+      "unsteady walking",
+      "staggering",
+      "wobbling",
+      "unsteadiness"
+    ],
+    "recommendation": "Rest well, use stick or support to walk for now. See doctor if the staggering increase and you no fit walk straight."
+  },
+  {
+    "symptom": "weakness_of_one_body_side",
+    "pidgin": [
+      "one side of body weak",
+      "half side body fail",
+      "one hand and leg dead",
+      "weakness of one body side"
+    ],
+    "recommendation": "Run go hospital immediately! This one na classic sign of stroke and you need doctor urgent-urgent."
+  },
+  {
+    "symptom": "loss_of_smell",
+    "pidgin": [
+      "cannot smell anything",
+      "nose no dey catch smell",
+      "loss of smell",
+      "no smell"
+    ],
+    "recommendation": "Inhale steam from hot water to clear your nose, check say you no get cold. Go see doctor if it pass one week."
+  },
+  {
+    "symptom": "bladder_discomfort",
+    "pidgin": [
+      "bladder pain",
+      "lower stomach hurt when peeing",
+      "bladder discomfort",
+      "pain in bladder"
+    ],
+    "recommendation": "Drink plenty water to flush your bladder, avoid coffee or alcohol. See doctor if pain continue because e fit be infection (UTI)."
+  },
+  {
+    "symptom": "foul_smell_of_urine",
+    "pidgin": [
+      "urine dey smell bad",
+      "smelly pee",
+      "strong urine odor",
+      "foul smell of urine"
+    ],
+    "recommendation": "Drink plenty water, keep your private part clean. Go hospital for urine test (urinalysis) to check for infection."
+  },
+  {
+    "symptom": "continuous_feel_of_urine",
+    "pidgin": [
+      "always want to pee",
+      "frequent urine feeling",
+      "cannot hold pee",
+      "continuous feel of urine"
+    ],
+    "recommendation": "Reduce sugary drinks or coffee. Go check your sugar level for diabetes or check for bladder infection."
+  },
+  {
+    "symptom": "passage_of_gases",
+    "pidgin": [
+      "farting too much",
+      "gas for stomach",
+      "bloated stomach",
+      "passage of gases"
+    ],
+    "recommendation": "Avoid food wey dey cause gas like beans or carbonated drinks. See doctor if stomach pain or bloating continue."
+  },
+  {
+    "symptom": "internal_itching",
+    "pidgin": [
+      "internal itching",
+      "body dey scratch inside",
+      "itching inside body"
+    ],
+    "recommendation": "Drink plenty water to flush toxins. Go hospital check for blood infection or internal allergy."
+  },
+  {
+    "symptom": "toxic_look_(typhos)",
+    "pidgin": [
+      "looking very sick",
+      "pale face",
+      "toxic look",
+      "toxic look typhos"
+    ],
+    "recommendation": "Go hospital immediately because this one fit be sign of serious typhoid or advanced malaria wey need urgent medical care."
+  },
+  {
+    "symptom": "depression",
+    "pidgin": [
+      "depression",
+      "sad all the time",
+      "heavy mind",
+      "feeling hopeless",
+      "sadness"
+    ],
+    "recommendation": "Talk to person wey you trust or see mental health doctor (psychiatrist) for help. Rest well and try to take break."
+  },
+  {
+    "symptom": "irritability",
+    "pidgin": [
+      "getting angry easily",
+      "short temper",
+      "irritated",
+      "irritability"
+    ],
+    "recommendation": "Take deep breath to calm your mind, run from stressful things, and see doctor if your mood no settle."
+  },
+  {
+    "symptom": "muscle_pain",
+    "pidgin": [
+      "muscle pain",
+      "body ache",
+      "flesh dey pain",
+      "pain for muscle"
+    ],
+    "recommendation": "Rest your body, rub warm balm and take Paracetamol. See doctor if the pain dey stop you from doing daily work."
+  },
+  {
+    "symptom": "altered_sensorium",
+    "pidgin": [
+      "confused mind",
+      "brain no dey state",
+      "not knowing where you are",
+      "altered sensorium"
+    ],
+    "recommendation": "Go hospital emergency room immediately! This is a serious sign of brain issue or low blood sugar."
+  },
+  {
+    "symptom": "belly_pain",
+    "pidgin": [
+      "belly pain",
+      "belly ache",
+      "stomach dey hurt",
+      "pain for belly"
+    ],
+    "recommendation": "Drink warm water, avoid oily or hard food, rest well. Go hospital if the pain refuse to stop after two hours."
+  },
+  {
+    "symptom": "abnormal_menstruation",
+    "pidgin": [
+      "period no dey normal",
+      "irregular menstruation",
+      "heavy bleeding during period",
+      "abnormal menstruation"
+    ],
+    "recommendation": "Go see gynecologist (women doctor) for proper checkup to find out why your period dey change."
+  },
+  {
+    "symptom": "dischromic_patches",
+    "pidgin": [
+      "skin color changing",
+      "patches on skin",
+      "uneven skin tone",
+      "dischromic patches"
+    ],
+    "recommendation": "Stop using harsh bleaching creams, avoid direct hot sun, and go see skin doctor (dermatologist) for treatment."
+  },
+  {
+    "symptom": "watering_from_eyes",
+    "pidgin": [
+      "water dey come out from eye",
+      "watery eyes",
+      "crying eyes",
+      "watering from eyes"
+    ],
+    "recommendation": "Use clean water wash your eyes, avoid dust or smoke. See eye doctor if the water continue to flow."
+  },
+  {
+    "symptom": "polyuria",
+    "pidgin": [
+      "peeing too much",
+      "too much urine",
+      "frequent peeing",
+      "polyuria"
+    ],
+    "recommendation": "Drink plenty water make you no dry up. Go hospital test your sugar level for diabetes or do kidney check."
+  },
+  {
+    "symptom": "visual_disturbances",
+    "pidgin": [
+      "eyes double",
+      "cannot see clear",
+      "distorted vision",
+      "visual disturbance"
+    ],
+    "recommendation": "Rest your eyes, avoid screens. Go eye clinic immediately for doctor checkup."
+  },
+  {
+    "symptom": "receiving_blood_transfusion",
+    "pidgin": [
+      "getting blood",
+      "blood transfusion",
+      "receive blood",
+      "receiving blood transfusion"
+    ],
+    "recommendation": "See doctor after you collect blood to ensure your body accept the new blood well without any infection or issue."
+  },
+  {
+    "symptom": "coma",
+    "pidgin": [
+      "fainted block",
+      "unconscious",
+      "coma",
+      "fainted state"
+    ],
+    "recommendation": "Call emergency or rush the person to the nearest big hospital immediately. This one na emergency of life and death."
+  },
+  {
+    "symptom": "stomach_bleeding",
+    "pidgin": [
+      "bleeding in stomach",
+      "vomiting blood",
+      "blood inside stomach",
+      "stomach bleeding"
+    ],
+    "recommendation": "Rush to hospital immediately! Stomach bleeding fit cause death quick if doctor no treat am."
+  },
+  {
+    "symptom": "distention_of_abdomen",
+    "pidgin": [
+      "swollen stomach",
+      "bloated belle",
+      "belly swell up",
+      "distention of abdomen"
+    ],
+    "recommendation": "Reduce salt and fatty foods, drink water in moderation. Go hospital for liver or stomach scan."
+  },
+  {
+    "symptom": "palpitations",
+    "pidgin": [
+      "heart racing",
+      "heart skipping beat",
+      "palpitation",
+      "heart beating fast"
+    ],
+    "recommendation": "Sit down quietly, take deep breaths to slow your heart down. Avoid coffee and see doctor if you get short of breath."
+  },
+  {
+    "symptom": "scurring",
+    "pidgin": [
+      "skin scratch",
+      "scars on skin",
+      "skin peeling",
+      "scurring"
+    ],
+    "recommendation": "Use good cream to keep skin soft and make sure your body dey clean. See doctor if the scar dey spread."
+  },
+  {
+    "symptom": "skin_peeling",
+    "pidgin": [
+      "peeling skin",
+      "skin dey shed",
+      "body peeling",
+      "skin peeling"
+    ],
+    "recommendation": "Use gentle moisturizer, avoid standing under direct sun. Go see doctor if the peeling continue."
+  },
+  {
+    "symptom": "inflammatory_nails",
+    "pidgin": [
+      "swollen nails",
+      "nail pain",
+      "nail inflammation",
+      "inflammatory nails"
+    ],
+    "recommendation": "Soak the nail in warm salt water to kill bacteria and reduce swelling. See doctor if pus start to come out."
+  },
+  {
+    "symptom": "blister",
+    "pidgin": [
+      "blister",
+      "water skin bag",
+      "burn skin with water",
+      "water blister"
+    ],
+    "recommendation": "No burst the blister make infection no enter. Cover am with clean bandage. See doctor if the water inside turn red or yellow."
+  },
+  {
+    "symptom": "blood_in_stool",
+    "pidgin": [
+      "blood in poo",
+      "stooling blood",
+      "toilet with blood",
+      "blood in stool"
+    ],
+    "recommendation": "Go hospital immediately. Blood in toilet fit be sign of serious bowel or pile problem."
+  },
+  {
+    "symptom": "night_sweats",
+    "pidgin": [
+      "sweating for night",
+      "night sweat",
+      "wake up wet with sweat",
+      "night sweats"
+    ],
+    "recommendation": "Drink plenty water, sleep where air dey blow. Go hospital for checkup if you dey sweat every night."
+  },
+  {
+    "symptom": "swollen_feet",
+    "pidgin": [
+      "swollen feet",
+      "feet swell up",
+      "water in feet",
+      "leg swell"
+    ],
+    "recommendation": "Elevate your feet above heart level when you sleep, reduce salt. Go see doctor to check kidney and heart."
+  },
+  {
+    "symptom": "blood_in_vomit",
+    "pidgin": [
+      "blood in vomit",
+      "throwing up blood",
+      "vomiting blood",
+      "blood in vomit"
+    ],
+    "recommendation": "Go hospital emergency immediately. This one na serious issue wey need quick attention."
+  },
+  {
+    "symptom": "yellow_eyes",
+    "pidgin": [
+      "yellow eyes",
+      "white of eye turn yellow",
+      "yellow eye color",
+      "yellow eyes"
+    ],
+    "recommendation": "Go hospital immediately for liver function test. This is jaundice or hepatitis sign."
+  },
+  {
+    "symptom": "enlarged_spleen",
+    "pidgin": [
+      "enlarged spleen",
+      "left side stomach swell",
+      "spleen pain",
+      "enlarged spleen"
+    ],
+    "recommendation": "See doctor for ultrasound, avoid rough sports make the spleen no burst, and take your drugs."
+  },
+  {
+    "symptom": "rash_with_fever",
+    "pidgin": [
+      "rash and fever",
+      "hot body with rashes",
+      "fever and skin rash",
+      "rash with fever"
+    ],
+    "recommendation": "Go hospital quick-quick. Fever joined with rash fit be sign of measles or meningitis."
+  },
+  {
+    "symptom": "swollen_gums",
+    "pidgin": [
+      "swollen gums",
+      "gum swell up",
+      "tooth gum pain",
+      "swollen gum"
+    ],
+    "recommendation": "Rinse mouth with warm salt water to reduce pain. Go see dentist to check for infection."
+  },
+  {
+    "symptom": "bleeding_gums",
+    "pidgin": [
+      "bleeding gums",
+      "blood from gum",
+      "gum bleeding when brushing",
+      "bleeding gum"
+    ],
+    "recommendation": "Brush gently with soft toothbrush, eat food with Vitamin C. See dentist if the bleeding continue."
+  },
+  {
+    "symptom": "testicular_pain",
+    "pidgin": [
+      "testicle pain",
+      "pain for balls",
+      "man egg dey pain",
+      "testicular pain"
+    ],
+    "recommendation": "Rest well, use painkiller. Go hospital immediately if the pain start sudden and sharp."
+  },
+  {
+    "symptom": "painful_urination",
+    "pidgin": [
+      "painful urination",
+      "pain when peeing",
+      "urine dey burn",
+      "painful urination"
+    ],
+    "recommendation": "Drink plenty water to flush urine track. See doctor for infection test if urination dey hurt."
+  },
+  {
+    "symptom": "swollen_breasts",
+    "pidgin": [
+      "swollen breast",
+      "breast swell up",
+      "heavy breast",
+      "swollen breasts"
+    ],
+    "recommendation": "Rest and use cool compress. See doctor to check the cause if e no relate to period."
+  },
+  {
+    "symptom": "breast_lump",
+    "pidgin": [
+      "lump in breast",
+      "hard thing for breast",
+      "breast lump"
+    ],
+    "recommendation": "Go hospital immediately for breast exam and scan to rule out cancer."
+  },
+  {
+    "symptom": "frequent_urination",
+    "pidgin": [
+      "peeing frequently",
+      "always peeing",
+      "toilet every time for urine",
+      "frequent urination"
+    ],
+    "recommendation": "Do blood sugar test quick, and see doctor to check your kidney if you dey pee pass ten times a day."
+  },
+  {
+    "symptom": "sores_on_genitals",
+    "pidgin": [
+      "sore on private part",
+      "injury on genitals",
+      "private part sore",
+      "sores on genitals"
+    ],
+    "recommendation": "Stop sex and go see doctor immediately for STI screening and treatment."
+  },
+  {
+    "symptom": "hearing_loss",
+    "pidgin": [
+      "cannot hear well",
+      "blocked ear",
+      "ear dey ring",
+      "hearing loss"
+    ],
+    "recommendation": "Avoid loud noise, no put sharp object or cotton bud inside ear. See ENT doctor if hearing reduce."
+  }
+]
